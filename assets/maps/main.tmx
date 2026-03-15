@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.10" tiledversion="1.11.2" orientation="orthogonal" renderorder="right-down" width="30" height="20" tilewidth="16" tileheight="16" infinite="0" nextlayerid="5" nextobjectid="18">
+ <tileset firstgid="1" source="objects/player.tsx"/>
+ <tileset firstgid="4" source="tileset.tsx"/>
+ <layer id="1" name="ground" width="30" height="20">
+  <data encoding="base64" compression="zlib">
+   eJzbycDAsHMUj+JRPIppiNmBmAMJc9LJXmEg5kHCoqP20gTLA7ECElakk72jeBQPZgwAU66hQw==
+  </data>
+ </layer>
+ <layer id="2" name="background" width="30" height="20" visible="0">
+  <data encoding="base64" compression="zlib">
+   eJztwTEBAAAAwqD1T20JT6AAAHgaCWAAAQ==
+  </data>
+ </layer>
+ <objectgroup id="4" name="Objects">
+  <object id="3" gid="3" x="131.414" y="251.752" width="32" height="32">
+   <properties>
+    <property name="z" type="int" value="0"/>
+   </properties>
+  </object>
+  <object id="5" gid="1" x="273.8" y="94.5633" width="80" height="112"/>
+  <object id="6" gid="2" x="125.18" y="242.208" width="41" height="63"/>
+  <object id="7" gid="2" x="161.474" y="278.503" width="41" height="63"/>
+  <object id="8" gid="2" x="390.586" y="223.304" width="41" height="63"/>
+  <object id="9" gid="2" x="374.707" y="127.274" width="41" height="63"/>
+  <object id="10" gid="2" x="191.72" y="103.078" width="41" height="63"/>
+  <object id="11" gid="2" x="-1.09641" y="60.7335" width="41" height="63"/>
+  <object id="12" gid="2" x="35.9546" y="213.474" width="41" height="63"/>
+  <object id="13" gid="2" x="29.9055" y="302.699" width="41" height="63"/>
+  <object id="14" gid="2" x="395.879" y="299.675" width="41" height="63"/>
+  <object id="15" gid="2" x="299.849" y="204.401" width="41" height="63"/>
+ </objectgroup>
+ <layer id="3" name="foreground" width="30" height="20" visible="0">
+  <data encoding="base64" compression="zlib">
+   eJztwTEBAAAAwqD1T20JT6AAAHgaCWAAAQ==
+  </data>
+ </layer>
+</map>

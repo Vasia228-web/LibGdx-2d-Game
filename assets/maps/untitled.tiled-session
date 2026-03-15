@@ -1,0 +1,56 @@
+{
+    "Map/SizeTest": {
+        "height": 4300,
+        "width": 2
+    },
+    "activeFile": "main.tmx",
+    "expandedProjectPaths": [
+        "objects",
+        "."
+    ],
+    "fileStates": {
+        "main.tmx": {
+            "scale": 1.42,
+            "selectedLayer": 2,
+            "viewCenter": {
+                "x": 298.5915492957747,
+                "y": 358.8028169014085
+            }
+        },
+        "objects/player.tsx": {
+            "dynamicWrapping": true,
+            "scaleInDock": 2.02,
+            "scaleInEditor": 3
+        },
+        "tileset.tsx": {
+            "dynamicWrapping": false,
+            "scaleInDock": 2.02,
+            "scaleInEditor": 3
+        }
+    },
+    "frame.defaultDuration": 200,
+    "last.imagePath": "/Users/yavasia/Desktop/LibGdx/assets/maps/objects",
+    "map.lastUsedFormat": "tmx",
+    "map.layerDataFormat": "3",
+    "map.tileHeight": 16,
+    "map.tileWidth": 16,
+    "openFiles": [
+        "main.tmx",
+        "tileset.tsx"
+    ],
+    "project": "untitled.tiled-project",
+    "property.type": "string",
+    "recentFiles": [
+        "tileset.tsx",
+        "main.tmx",
+        "objects/player.tsx"
+    ],
+    "tileset.lastUsedFormat": "tsx",
+    "tileset.margin": 8,
+    "tileset.spacing": 16,
+    "tileset.tileSize": {
+        "height": 16,
+        "width": 16
+    },
+    "tileset.type": 1
+}

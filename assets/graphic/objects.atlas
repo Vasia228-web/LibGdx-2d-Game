@@ -1,0 +1,27 @@
+
+objects.png
+size: 256, 128
+format: RGBA8888
+filter: Nearest, Nearest
+repeat: none
+house/house
+  rotate: false
+  xy: 4, 4
+  size: 80, 112
+  orig: 80, 112
+  offset: 0, 0
+  index: -1
+oak_tree/oak_tree
+  rotate: false
+  xy: 88, 53
+  size: 41, 63
+  orig: 41, 63
+  offset: 0, 0
+  index: -1
+player/player
+  rotate: false
+  xy: 88, 17
+  size: 32, 32
+  orig: 32, 32
+  offset: 0, 0
+  index: -1
