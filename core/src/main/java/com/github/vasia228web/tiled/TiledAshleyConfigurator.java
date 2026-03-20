@@ -14,8 +14,9 @@ import com.github.vasia228web.GdxGame;
 import com.github.vasia228web.asset.AssetService;
 import com.github.vasia228web.asset.AtlasAsset;
 import com.github.vasia228web.component.Graphic;
+import com.github.vasia228web.component.Move;
 import com.github.vasia228web.component.Transform;
-
+import com.github.vasia228web.input.Controller;
 
 
 public class TiledAshleyConfigurator {
@@ -40,8 +41,22 @@ public class TiledAshleyConfigurator {
             textureRegion.getRegionWidth(), textureRegion.getRegionHeight(),
             tileMapObject.getScaleX(), tileMapObject.getScaleY(),
             entity);
-
+        addEntityController(tileMapObject, entity);
+        addEntityMove(tile, entity);
         this.engine.addEntity(entity);
+    }
+
+    private void addEntityMove(TiledMapTile tile, Entity entity) {
+
+        float speed = tile.getProperties().get("speed", 0f, Float.class);
+        if(speed == 0) return;
+        entity.add(new Move(speed));
+    }
+
+    private void addEntityController(TiledMapTileMapObject tileMapObject, Entity entity){
+        boolean controller = tileMapObject.getProperties().get("controller", false, boolean.class);
+        if(!controller)return;
+        entity.add(new Controller());
     }
 
     private void addEntityTransform(float x,float y, int z, float w,

@@ -13,13 +13,13 @@
   </data>
  </layer>
  <objectgroup id="4" name="Objects">
-  <object id="3" gid="3" x="131.414" y="251.752" width="32" height="32">
+  <object id="3" gid="3" x="132.583" y="247.659" width="32" height="32">
    <properties>
-    <property name="z" type="int" value="0"/>
+    <property name="controller" type="bool" value="true"/>
    </properties>
   </object>
   <object id="5" gid="1" x="273.8" y="94.5633" width="80" height="112"/>
-  <object id="6" gid="2" x="125.18" y="242.208" width="41" height="63"/>
+  <object id="6" gid="2" x="126.934" y="236.946" width="41" height="63"/>
   <object id="7" gid="2" x="161.474" y="278.503" width="41" height="63"/>
   <object id="8" gid="2" x="390.586" y="223.304" width="41" height="63"/>
   <object id="9" gid="2" x="374.707" y="127.274" width="41" height="63"/>

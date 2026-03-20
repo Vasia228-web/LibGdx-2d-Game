@@ -3,29 +3,29 @@
         "height": 4300,
         "width": 2
     },
-    "activeFile": "main.tmx",
+    "activeFile": "objects/player.tsx",
     "expandedProjectPaths": [
         "objects",
         "."
     ],
     "fileStates": {
         "main.tmx": {
-            "scale": 1.42,
+            "scale": 2.16,
             "selectedLayer": 2,
             "viewCenter": {
-                "x": 298.5915492957747,
-                "y": 358.8028169014085
+                "x": 103.24074074074072,
+                "y": 210.6481481481481
             }
         },
         "objects/player.tsx": {
             "dynamicWrapping": true,
-            "scaleInDock": 2.02,
-            "scaleInEditor": 3
+            "scaleInDock": 1.37,
+            "scaleInEditor": 2.35
         },
         "tileset.tsx": {
             "dynamicWrapping": false,
             "scaleInDock": 2.02,
-            "scaleInEditor": 3
+            "scaleInEditor": 2.35
         }
     },
     "frame.defaultDuration": 200,
@@ -36,13 +36,14 @@
     "map.tileWidth": 16,
     "openFiles": [
         "main.tmx",
-        "tileset.tsx"
+        "tileset.tsx",
+        "objects/player.tsx"
     ],
     "project": "untitled.tiled-project",
-    "property.type": "string",
+    "property.type": "float",
     "recentFiles": [
-        "tileset.tsx",
         "main.tmx",
+        "tileset.tsx",
         "objects/player.tsx"
     ],
     "tileset.lastUsedFormat": "tsx",
