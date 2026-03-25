@@ -4,6 +4,9 @@ import com.badlogic.ashley.core.Engine;
 import com.badlogic.ashley.core.Entity;
 
 import com.badlogic.gdx.graphics.Color;
+import com.badlogic.gdx.graphics.g2d.Animation;
+import com.badlogic.gdx.graphics.g2d.Animation.PlayMode;
+import com.badlogic.gdx.graphics.g2d.Sprite;
 import com.badlogic.gdx.graphics.g2d.TextureAtlas;
 import com.badlogic.gdx.graphics.g2d.TextureRegion;
 import com.badlogic.gdx.graphics.glutils.FileTextureData;
@@ -13,11 +16,10 @@ import com.badlogic.gdx.math.Vector2;
 import com.github.vasia228web.GdxGame;
 import com.github.vasia228web.asset.AssetService;
 import com.github.vasia228web.asset.AtlasAsset;
-import com.github.vasia228web.component.Graphic;
-import com.github.vasia228web.component.Move;
-import com.github.vasia228web.component.Transform;
+import com.github.vasia228web.component.*;
+import com.github.vasia228web.component.Animation2D.AnimationType;
+import com.github.vasia228web.component.Facing.FacingDirection;
 import com.github.vasia228web.input.Controller;
-
 
 public class TiledAshleyConfigurator {
 
@@ -41,9 +43,29 @@ public class TiledAshleyConfigurator {
             textureRegion.getRegionWidth(), textureRegion.getRegionHeight(),
             tileMapObject.getScaleX(), tileMapObject.getScaleY(),
             entity);
+
         addEntityController(tileMapObject, entity);
         addEntityMove(tile, entity);
+        addEntityAnimation(tile, entity);
+        entity.add(new Facing(FacingDirection.DOWN));
+        entity.add(new Fsm(entity));
+
         this.engine.addEntity(entity);
+
+    }
+
+    private void addEntityAnimation(TiledMapTile tile, Entity entity) {
+
+    String animationStr = tile.getProperties().get("animation", "", String.class);
+    if(animationStr.isBlank())return;
+
+    AnimationType animationType = AnimationType.valueOf(animationStr);
+    String atlasAssetStr = tile.getProperties().get("atlasAsset", "OBJECTS", String.class);
+    AtlasAsset atlasAsset =AtlasAsset.valueOf(atlasAssetStr);
+    FileTextureData textureData =(FileTextureData) tile.getTextureRegion().getTexture().getTextureData();
+    String atlasKey = textureData.getFileHandle().nameWithoutExtension();
+    float speed = tile.getProperties().get("animationSpeed",0f, Float.class);
+    entity.add(new Animation2D(atlasAsset,atlasKey,animationType, PlayMode.LOOP, speed));
     }
 
     private void addEntityMove(TiledMapTile tile, Entity entity) {

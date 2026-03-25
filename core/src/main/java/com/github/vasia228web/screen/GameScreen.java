@@ -13,9 +13,7 @@ import com.github.vasia228web.asset.AssetService;
 import com.github.vasia228web.asset.MapAsset;
 import com.github.vasia228web.input.GameControllerState;
 import com.github.vasia228web.input.KeyboardController;
-import com.github.vasia228web.system.ControllerSystem;
-import com.github.vasia228web.system.MoveSystem;
-import com.github.vasia228web.system.RenderSystem;
+import com.github.vasia228web.system.*;
 import com.github.vasia228web.tiled.TiledAshleyConfigurator;
 import com.github.vasia228web.tiled.TiledService;
 
@@ -38,6 +36,9 @@ public class GameScreen extends ScreenAdapter {
 
         this.engine.addSystem(new ControllerSystem());
         this.engine.addSystem(new MoveSystem());
+        this.engine.addSystem(new FsmSystem());
+        this.engine.addSystem(new FacingSystem());
+        this.engine.addSystem(new AnimationSystem(game.getAssetService()));
         this.engine.addSystem(new RenderSystem(game.getBatch(), game.getViewport(),game.getCamera()));
     }
 

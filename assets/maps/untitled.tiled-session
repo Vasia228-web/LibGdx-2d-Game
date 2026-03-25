@@ -5,16 +5,17 @@
     },
     "activeFile": "objects/player.tsx",
     "expandedProjectPaths": [
-        "objects",
-        "."
+        ".",
+        "objects"
     ],
+    "file.lastUsedOpenFilter": "All Files (*)",
     "fileStates": {
         "main.tmx": {
-            "scale": 2.16,
+            "scale": 1.2847,
             "selectedLayer": 2,
             "viewCenter": {
-                "x": 103.24074074074072,
-                "y": 210.6481481481481
+                "x": 193.8195687709193,
+                "y": 371.6821047715421
             }
         },
         "objects/player.tsx": {
@@ -36,15 +37,14 @@
     "map.tileWidth": 16,
     "openFiles": [
         "main.tmx",
-        "tileset.tsx",
         "objects/player.tsx"
     ],
     "project": "untitled.tiled-project",
-    "property.type": "float",
+    "property.type": "string",
     "recentFiles": [
         "main.tmx",
-        "tileset.tsx",
-        "objects/player.tsx"
+        "objects/player.tsx",
+        "tileset.tsx"
     ],
     "tileset.lastUsedFormat": "tsx",
     "tileset.margin": 8,
