@@ -4,32 +4,71 @@ import com.badlogic.ashley.core.Engine;
 import com.badlogic.ashley.core.Entity;
 
 import com.badlogic.gdx.graphics.Color;
-import com.badlogic.gdx.graphics.g2d.Animation;
 import com.badlogic.gdx.graphics.g2d.Animation.PlayMode;
-import com.badlogic.gdx.graphics.g2d.Sprite;
 import com.badlogic.gdx.graphics.g2d.TextureAtlas;
 import com.badlogic.gdx.graphics.g2d.TextureRegion;
 import com.badlogic.gdx.graphics.glutils.FileTextureData;
+import com.badlogic.gdx.maps.MapObject;
+import com.badlogic.gdx.maps.MapObjects;
 import com.badlogic.gdx.maps.tiled.TiledMapTile;
 import com.badlogic.gdx.maps.tiled.objects.TiledMapTileMapObject;
 import com.badlogic.gdx.math.Vector2;
+import com.badlogic.gdx.physics.box2d.*;
 import com.github.vasia228web.GdxGame;
 import com.github.vasia228web.asset.AssetService;
 import com.github.vasia228web.asset.AtlasAsset;
 import com.github.vasia228web.component.*;
 import com.github.vasia228web.component.Animation2D.AnimationType;
 import com.github.vasia228web.component.Facing.FacingDirection;
+import com.github.vasia228web.component.Transform;
 import com.github.vasia228web.input.Controller;
 
 public class TiledAshleyConfigurator {
-
+    private static final Vector2 DEFAULT_PHYSIC_SCALING  = new Vector2(1f, 1f);
     private final Engine engine;
     private final AssetService assetService;
+    private final World physicsWorld;
 
-   public TiledAshleyConfigurator(Engine engine, AssetService assetService) {
-       this.engine = engine;
+   public TiledAshleyConfigurator(Engine engine, AssetService assetService, World physicsWorld) {
+        this.engine = engine;
         this.assetService = assetService;
+        this.physicsWorld = physicsWorld;
    }
+
+    public void onLoadTile(TiledMapTile tiledMapTile, float x, float y) {
+        createBody(
+            tiledMapTile.getObjects(),
+            new Vector2(x, y),
+            DEFAULT_PHYSIC_SCALING,
+            BodyDef.BodyType.StaticBody,
+            Vector2.Zero,
+            "environment"
+        );
+    }
+
+    private Body createBody(MapObjects mapObjects,
+                            Vector2 position,
+                            Vector2 scaling,
+                            BodyDef.BodyType bodyType,
+                            Vector2 relativeTo,
+                            Object userData) {
+
+       BodyDef bodyDef = new BodyDef();
+       bodyDef.type = bodyType;
+       bodyDef.position.set(position);
+       bodyDef.fixedRotation = true;
+
+       Body body = physicsWorld.createBody(bodyDef);
+       body.setUserData(userData);
+       for (MapObject object : mapObjects) {
+            FixtureDef fixtureDef = TiledPhysics.fixtureDefOf(object, scaling, relativeTo);
+            Fixture fixture = body.createFixture(fixtureDef);
+            fixture.setUserData(object.getName());
+            fixtureDef.shape.dispose();
+       }
+        return body;
+    }
+
 
     public void onLoadObject(TiledMapTileMapObject tileMapObject){
         Entity entity = this.engine.createEntity();
@@ -47,10 +86,29 @@ public class TiledAshleyConfigurator {
         addEntityController(tileMapObject, entity);
         addEntityMove(tile, entity);
         addEntityAnimation(tile, entity);
+        BodyDef.BodyType bodyType = getObjectBodyType(tile);
+        addEntityPhysic(tile.getObjects(),bodyType, Vector2.Zero, entity);
         entity.add(new Facing(FacingDirection.DOWN));
         entity.add(new Fsm(entity));
 
         this.engine.addEntity(entity);
+
+    }
+
+    private BodyDef.BodyType getObjectBodyType(TiledMapTile tile) {
+       String classType = tile.getProperties().get("type","", String.class);
+       if("Prop".equals(classType)){
+           return BodyDef.BodyType.StaticBody;
+       }
+       return BodyDef.BodyType.DynamicBody;
+    }
+
+    private void addEntityPhysic(MapObjects objects, BodyDef.BodyType bodyType, Vector2 relativeTo, Entity entity) {
+        if(objects.getCount() == 0) return;
+
+        Transform transform = Transform.MAPPER.get(entity);
+        Body body = createBody(objects, transform.getPosition(), transform.getScaling(), bodyType, relativeTo, entity);
+        entity.add(new Physic(body, transform.getPosition().cpy()));
 
     }
 
@@ -107,5 +165,4 @@ public class TiledAshleyConfigurator {
 
         return tile.getTextureRegion();
     }
-
 }

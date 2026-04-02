@@ -41,10 +41,10 @@ public class AnimationSystem extends IteratingSystem {
             stateTime = 0f;
         }
         else{
-            stateTime =animation2D.incAndGetStateTime(deltaTime);
+            stateTime = animation2D.incAndGetStateTime(deltaTime);
         }
 
-        Animation<TextureRegion> animation =animation2D.getAnimation();
+        Animation<TextureRegion> animation = animation2D.getAnimation();
         animation.setPlayMode(animation.getPlayMode());
         TextureRegion keyFrame = animation.getKeyFrame(stateTime);
         Graphic.MAPPER.get(entity).setRegion(keyFrame);

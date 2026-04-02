@@ -3,6 +3,8 @@ package com.github.vasia228web.tiled;
 import com.badlogic.gdx.maps.MapLayer;
 import com.badlogic.gdx.maps.MapObject;
 import com.badlogic.gdx.maps.tiled.TiledMap;
+import com.badlogic.gdx.maps.tiled.TiledMapTile;
+import com.badlogic.gdx.maps.tiled.TiledMapTileLayer;
 import com.badlogic.gdx.maps.tiled.objects.TiledMapTileMapObject;
 import com.badlogic.gdx.utils.GdxRuntimeException;
 import com.github.vasia228web.asset.AssetService;
@@ -19,12 +21,14 @@ public class TiledService {
 
     private Consumer<TiledMap> mapChangedConsumer;
     private Consumer<TiledMapTileMapObject> loadObjectsConsumer;
+    private LoadTileConsumer loadTileConsumer;
 
     public TiledService(AssetService assetService) {
         this.assetService = assetService;
         this.mapChangedConsumer = null;
         this.loadObjectsConsumer = null;
         this.currentMap = null;
+        this.loadTileConsumer = null;
     }
 
     public TiledMap loadMap(MapAsset mapAsset) {
@@ -50,9 +54,24 @@ public class TiledService {
         for(MapLayer layer : tiledMap.getLayers()){
             if("Objects".equals(layer.getName())){
                 loadObjectLayer(layer);
+            }else if(layer instanceof TiledMapTileLayer tileLayer){
+                loadTileLayer(tileLayer);
             }
         }
     }
+
+    private void loadTileLayer(TiledMapTileLayer tileLayer) {
+        if(loadTileConsumer == null) return;
+        for(int y = 0; y < tileLayer.getHeight(); y++){
+            for(int x = 0; x < tileLayer.getWidth(); x++){
+                TiledMapTileLayer.Cell cell = tileLayer.getCell(x, y);
+                if(cell == null)continue;
+
+                loadTileConsumer.accept(cell.getTile(),x,y);
+            }
+        }
+    }
+
 
     private void loadObjectLayer(MapLayer objectLayer) {
         if(loadObjectsConsumer == null) return;
@@ -69,6 +88,15 @@ public class TiledService {
     public void setMapChangeConsumer(Consumer<TiledMap> mapChangedConsumer) {
         this.mapChangedConsumer = mapChangedConsumer;
     }
+
+    public void setLoadTileConsumer(LoadTileConsumer loadTileConsumer) {
+        this.loadTileConsumer = loadTileConsumer;
+    }
+    @FunctionalInterface
+    public interface LoadTileConsumer {
+        void accept(TiledMapTile tile, float x, float y);
+    }
+
 
     public void setLoadObjectsConsumer(Consumer<TiledMapTileMapObject> loadObjectsConsumer) {
         this.loadObjectsConsumer = loadObjectsConsumer;

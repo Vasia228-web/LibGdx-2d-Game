@@ -34,7 +34,7 @@ public class Animation2D implements Component {
         this.direction = null;
         this.playMode = playMode;
         this.speed = speed;
-        this.dirty = dirty;
+        this.dirty = false;
         this.animation = null;
         this.stateTime = 0f;
     }
