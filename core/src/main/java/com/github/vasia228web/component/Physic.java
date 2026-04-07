@@ -8,7 +8,7 @@ import com.badlogic.gdx.physics.box2d.Body;
 public class Physic implements Component {
     public static final ComponentMapper<Physic> MAPPER = ComponentMapper.getFor(Physic.class);
 
-    private final Body body;
+    private Body body;
     private final Vector2 prevPosition;
 
     public Physic(Body body, Vector2 prevPosition) {
@@ -18,6 +18,10 @@ public class Physic implements Component {
 
     public Body getBody() {
         return body;
+    }
+
+    public void setBody(Body body) {
+        this.body = body;
     }
 
     public Vector2 getPrevPosition() {

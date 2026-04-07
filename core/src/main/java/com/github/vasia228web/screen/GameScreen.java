@@ -28,9 +28,9 @@ public class GameScreen extends ScreenAdapter {
 
     public GameScreen(GdxGame game){
         this.game = game;
-        this.tiledService = new TiledService(game.getAssetService());
         this.engine = new Engine();
         this.physicsWorld = new World(Vector2.Zero, true);
+        this.tiledService = new TiledService(game.getAssetService(),this.physicsWorld);
         this.physicsWorld.setAutoClearForces(false);
         this.tiledAshleyConfigurator = new TiledAshleyConfigurator(this.engine, game.getAssetService(),physicsWorld);
         this.keyboardController = new KeyboardController(GameControllerState.class, engine);
@@ -40,9 +40,13 @@ public class GameScreen extends ScreenAdapter {
         this.engine.addSystem(new FsmSystem());
         this.engine.addSystem(new FacingSystem());
         this.engine.addSystem(new PhysicSystem(physicsWorld, 1/60f));
+        this.engine.addSystem(new DestroySystem(physicsWorld));
         this.engine.addSystem(new AnimationSystem(game.getAssetService()));
+        this.engine.addSystem(new CameraSystem(game.getCamera()));
         this.engine.addSystem(new RenderSystem(game.getBatch(), game.getViewport(),game.getCamera()));
         this.engine.addSystem(new PhysicDebugRenderSystem(physicsWorld, game.getCamera()));
+
+        game.getCamera().zoom = 2f;
     }
 
     @Override
@@ -51,7 +55,8 @@ public class GameScreen extends ScreenAdapter {
         keyboardController.setActiveState(GameControllerState.class);
 
         Consumer<TiledMap> renderConsumer = this.engine.getSystem(RenderSystem.class)::setMap;
-        this.tiledService.setMapChangeConsumer(renderConsumer);
+        Consumer<TiledMap> cameraConsumer = this.engine.getSystem(CameraSystem.class)::setMap;
+        this.tiledService.setMapChangeConsumer(renderConsumer.andThen(cameraConsumer));
         this.tiledService.setLoadObjectsConsumer(this.tiledAshleyConfigurator::onLoadObject);
         this.tiledService.setLoadTileConsumer(tiledAshleyConfigurator::onLoadTile);
 

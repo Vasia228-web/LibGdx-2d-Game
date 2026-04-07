@@ -88,11 +88,19 @@ public class TiledAshleyConfigurator {
         addEntityAnimation(tile, entity);
         BodyDef.BodyType bodyType = getObjectBodyType(tile);
         addEntityPhysic(tile.getObjects(),bodyType, Vector2.Zero, entity);
+        addEntityCameraFollow(tileMapObject, entity);
         entity.add(new Facing(FacingDirection.DOWN));
         entity.add(new Fsm(entity));
 
         this.engine.addEntity(entity);
 
+    }
+
+    private void addEntityCameraFollow(TiledMapTileMapObject tileMapObject, Entity entity) {
+        Boolean camFollow = tileMapObject.getProperties().get("camFollow", false, Boolean.class);
+        if(!camFollow)return;
+
+        entity.add(new CameraFollow());
     }
 
     private BodyDef.BodyType getObjectBodyType(TiledMapTile tile) {

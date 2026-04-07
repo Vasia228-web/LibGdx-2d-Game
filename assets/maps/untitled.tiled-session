@@ -40,7 +40,7 @@
         "objects/player.tsx"
     ],
     "project": "untitled.tiled-project",
-    "property.type": "float",
+    "property.type": "bool",
     "recentFiles": [
         "main.tmx",
         "objects/player.tsx",
