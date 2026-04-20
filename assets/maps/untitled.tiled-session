@@ -10,12 +10,334 @@
     ],
     "file.lastUsedOpenFilter": "All Files (*)",
     "fileStates": {
+        "/Users/yavasia/Desktop/pixel art/Free-Top-Down-Orc-Game-Character-Pixel-Art/Tiled_files/Orc1.tmx": {
+            "scale": 3.62,
+            "selectedLayer": 0,
+            "viewCenter": {
+                "x": 90.60773480662984,
+                "y": 72.92817679558011
+            }
+        },
+        "/Users/yavasia/Desktop/pixel art/Free-Top-Down-Orc-Game-Character-Pixel-Art/Tiled_files/Orc1.tmx#orc1_attack_full": {
+            "scaleInDock": 1
+        },
+        "/Users/yavasia/Desktop/pixel art/Free-Top-Down-Orc-Game-Character-Pixel-Art/Tiled_files/Orc1.tmx#orc1_death_full": {
+            "scaleInDock": 1
+        },
+        "/Users/yavasia/Desktop/pixel art/Free-Top-Down-Orc-Game-Character-Pixel-Art/Tiled_files/Orc1.tmx#orc1_hurt_full": {
+            "scaleInDock": 1
+        },
+        "/Users/yavasia/Desktop/pixel art/Free-Top-Down-Orc-Game-Character-Pixel-Art/Tiled_files/Orc1.tmx#orc1_idle_full": {
+            "scaleInDock": 1
+        },
+        "/Users/yavasia/Desktop/pixel art/Free-Top-Down-Orc-Game-Character-Pixel-Art/Tiled_files/Orc1.tmx#orc1_run_attack_front_full": {
+            "scaleInDock": 1
+        },
+        "/Users/yavasia/Desktop/pixel art/Free-Top-Down-Orc-Game-Character-Pixel-Art/Tiled_files/Orc1.tmx#orc1_run_full": {
+            "scaleInDock": 1
+        },
+        "/Users/yavasia/Desktop/pixel art/Free-Top-Down-Orc-Game-Character-Pixel-Art/Tiled_files/Orc1.tmx#orc1_walk_attack_front _full": {
+            "scaleInDock": 1
+        },
+        "/Users/yavasia/Desktop/pixel art/Free-Top-Down-Orc-Game-Character-Pixel-Art/Tiled_files/Orc1.tmx#orc1_walk_full": {
+            "scaleInDock": 1
+        },
+        "/Users/yavasia/Desktop/pixel art/Free-Top-Down-Orc-Game-Character-Pixel-Art/Tiled_files/Orc1.tmx#shadow": {
+            "scaleInDock": 1
+        },
+        "/Users/yavasia/Desktop/pixel art/Free-Undead-Tileset-Top-Down-Pixel-Art/Tiled_files/Undead_land.tmx": {
+            "scale": 1.08,
+            "selectedLayer": 0,
+            "viewCenter": {
+                "x": 360.1851851851851,
+                "y": 252.77777777777777
+            }
+        },
+        "/Users/yavasia/Desktop/pixel art/Free-Undead-Tileset-Top-Down-Pixel-Art/Tiled_files/Undead_land.tmx#Ground_rocks": {
+            "scaleInDock": 1
+        },
+        "/Users/yavasia/Desktop/pixel art/Free-Undead-Tileset-Top-Down-Pixel-Art/Tiled_files/Undead_land.tmx#Objects": {
+            "scaleInDock": 1
+        },
+        "/Users/yavasia/Desktop/pixel art/Free-Undead-Tileset-Top-Down-Pixel-Art/Tiled_files/Undead_land.tmx#Objects_animated": {
+            "scaleInDock": 1
+        },
+        "/Users/yavasia/Desktop/pixel art/Free-Undead-Tileset-Top-Down-Pixel-Art/Tiled_files/Undead_land.tmx#Objects_animated2": {
+            "scaleInDock": 1
+        },
+        "/Users/yavasia/Desktop/pixel art/Free-Undead-Tileset-Top-Down-Pixel-Art/Tiled_files/Undead_land.tmx#Objects_animated3": {
+            "scaleInDock": 1
+        },
+        "/Users/yavasia/Desktop/pixel art/Free-Undead-Tileset-Top-Down-Pixel-Art/Tiled_files/Undead_land.tmx#Water_detilazation": {
+            "scaleInDock": 1
+        },
+        "/Users/yavasia/Desktop/pixel art/Free-Undead-Tileset-Top-Down-Pixel-Art/Tiled_files/Undead_land.tmx#details": {
+            "scaleInDock": 1
+        },
+        "/Users/yavasia/Desktop/pixel art/Free-Undead-Tileset-Top-Down-Pixel-Art/Tiled_files/Undead_land.tmx#water_coasts": {
+            "scaleInDock": 1
+        },
+        "/Users/yavasia/Desktop/pixel art/Free-Undead-Tileset-Top-Down-Pixel-Art/Tiled_files/Water_detilazation2.tsx": {
+            "scaleInDock": 1
+        },
+        "/Users/yavasia/Desktop/pixel art/free-pixel-art-dungeon-objects-asset-pack/Tiled_files/Dungeon1_objects.tmx": {
+            "scale": 2.9,
+            "selectedLayer": 0,
+            "viewCenter": {
+                "x": -104.82758620689654,
+                "y": 2.758620689655146
+            }
+        },
+        "/Users/yavasia/Desktop/pixel art/free-pixel-art-dungeon-objects-asset-pack/Tiled_files/Dungeon1_objects.tmx#Other_objects": {
+            "scaleInDock": 1
+        },
+        "/Users/yavasia/Desktop/pixel art/free-pixel-art-dungeon-objects-asset-pack/Tiled_files/Dungeon1_objects.tmx#Suply_objects": {
+            "scaleInDock": 1
+        },
+        "/Users/yavasia/Desktop/pixel art/free-pixel-art-dungeon-objects-asset-pack/Tiled_files/Dungeon1_objects.tmx#fire_trap": {
+            "scaleInDock": 1
+        },
+        "/Users/yavasia/Desktop/pixel art/free-pixel-art-dungeon-objects-asset-pack/Tiled_files/Dungeon1_objects.tmx#pedestals": {
+            "scaleInDock": 1
+        },
+        "/Users/yavasia/Desktop/pixel art/free-pixel-art-dungeon-objects-asset-pack/Tiled_files/Dungeon1_objects.tmx#trap_plate": {
+            "scaleInDock": 1
+        },
+        "/Users/yavasia/Desktop/pixel art/free-pixel-art-dungeon-objects-asset-pack/Tiled_files/Dungeon1_objects.tmx#trap_saw": {
+            "scaleInDock": 1
+        },
+        "/Users/yavasia/Desktop/pixel art/free-predator-plant-mobs-pixel-art-pack/Tiled_files/Plant1.tmx": {
+            "scale": 2.073177083333333,
+            "selectedLayer": 0,
+            "viewCenter": {
+                "x": 105.15261901771137,
+                "y": 160.62303730687105
+            }
+        },
+        "/Users/yavasia/Desktop/pixel art/free-predator-plant-mobs-pixel-art-pack/Tiled_files/Plant1.tmx#Plant1_Attack_full": {
+            "scaleInDock": 1
+        },
+        "/Users/yavasia/Desktop/pixel art/free-predator-plant-mobs-pixel-art-pack/Tiled_files/Plant1.tmx#Plant1_Death_full": {
+            "scaleInDock": 1
+        },
+        "/Users/yavasia/Desktop/pixel art/free-predator-plant-mobs-pixel-art-pack/Tiled_files/Plant1.tmx#Plant1_Hurt_full": {
+            "scaleInDock": 1
+        },
+        "/Users/yavasia/Desktop/pixel art/free-predator-plant-mobs-pixel-art-pack/Tiled_files/Plant1.tmx#Plant1_Idle_full": {
+            "scaleInDock": 1
+        },
+        "/Users/yavasia/Desktop/pixel art/free-predator-plant-mobs-pixel-art-pack/Tiled_files/Plant1.tmx#Plant1_Run_full": {
+            "scaleInDock": 1
+        },
+        "/Users/yavasia/Desktop/pixel art/free-predator-plant-mobs-pixel-art-pack/Tiled_files/Plant1.tmx#Plant1_Walk_full": {
+            "scaleInDock": 1
+        },
+        "/Users/yavasia/Desktop/pixel art/free-predator-plant-mobs-pixel-art-pack/Tiled_files/Plant1.tmx#Shadow": {
+            "scaleInDock": 1
+        },
+        "/Users/yavasia/Desktop/pixel art/free-predator-plant-mobs-pixel-art-pack/Tiled_files/Plant2.tmx": {
+            "scale": 2.073177083333333,
+            "selectedLayer": 0,
+            "viewCenter": {
+                "x": 85.85856048235148,
+                "y": 163.99949755055903
+            }
+        },
+        "/Users/yavasia/Desktop/pixel art/free-predator-plant-mobs-pixel-art-pack/Tiled_files/Plant2.tmx#Plant1_Attack_full": {
+            "scaleInDock": 1
+        },
+        "/Users/yavasia/Desktop/pixel art/free-predator-plant-mobs-pixel-art-pack/Tiled_files/Plant2.tmx#Plant1_Death_full": {
+            "scaleInDock": 1
+        },
+        "/Users/yavasia/Desktop/pixel art/free-predator-plant-mobs-pixel-art-pack/Tiled_files/Plant2.tmx#Plant1_Hurt_full": {
+            "scaleInDock": 1
+        },
+        "/Users/yavasia/Desktop/pixel art/free-predator-plant-mobs-pixel-art-pack/Tiled_files/Plant2.tmx#Plant1_Idle_full": {
+            "scaleInDock": 1
+        },
+        "/Users/yavasia/Desktop/pixel art/free-predator-plant-mobs-pixel-art-pack/Tiled_files/Plant2.tmx#Plant1_Run_full": {
+            "scaleInDock": 1
+        },
+        "/Users/yavasia/Desktop/pixel art/free-predator-plant-mobs-pixel-art-pack/Tiled_files/Plant2.tmx#Plant1_Walk_full": {
+            "scaleInDock": 1
+        },
+        "/Users/yavasia/Desktop/pixel art/free-predator-plant-mobs-pixel-art-pack/Tiled_files/Plant2.tmx#Shadow": {
+            "scaleInDock": 1
+        },
+        "/Users/yavasia/Desktop/pixel art/free-predator-plant-mobs-pixel-art-pack/Tiled_files/Plant3.tmx": {
+            "scale": 2.07,
+            "selectedLayer": 0,
+            "viewCenter": {
+                "x": 24.154589371980677,
+                "y": 122.22222222222223
+            }
+        },
+        "/Users/yavasia/Desktop/pixel art/free-predator-plant-mobs-pixel-art-pack/Tiled_files/Plant3.tmx#Plant1_Attack_full": {
+            "scaleInDock": 1
+        },
+        "/Users/yavasia/Desktop/pixel art/free-predator-plant-mobs-pixel-art-pack/Tiled_files/Plant3.tmx#Plant1_Death_full": {
+            "scaleInDock": 1
+        },
+        "/Users/yavasia/Desktop/pixel art/free-predator-plant-mobs-pixel-art-pack/Tiled_files/Plant3.tmx#Plant1_Hurt_full": {
+            "scaleInDock": 1
+        },
+        "/Users/yavasia/Desktop/pixel art/free-predator-plant-mobs-pixel-art-pack/Tiled_files/Plant3.tmx#Plant1_Idle_full": {
+            "scaleInDock": 1
+        },
+        "/Users/yavasia/Desktop/pixel art/free-predator-plant-mobs-pixel-art-pack/Tiled_files/Plant3.tmx#Plant1_Run_full": {
+            "scaleInDock": 1
+        },
+        "/Users/yavasia/Desktop/pixel art/free-predator-plant-mobs-pixel-art-pack/Tiled_files/Plant3.tmx#Plant1_Walk_full": {
+            "scaleInDock": 1
+        },
+        "/Users/yavasia/Desktop/pixel art/free-predator-plant-mobs-pixel-art-pack/Tiled_files/Plant3.tmx#Shadow": {
+            "scaleInDock": 1
+        },
+        "/Users/yavasia/Desktop/pixel art/free-vampire-4-direction-pixel-character-sprite-pack/Tiled/Vampire1.tmx": {
+            "scale": 2.073177083333333,
+            "selectedLayer": 0,
+            "viewCenter": {
+                "x": 124.92902901645525,
+                "y": 426.3986936314534
+            }
+        },
+        "/Users/yavasia/Desktop/pixel art/free-vampire-4-direction-pixel-character-sprite-pack/Tiled/Vampire1.tmx#Vampires3_Attack_full": {
+            "scaleInDock": 1
+        },
+        "/Users/yavasia/Desktop/pixel art/free-vampire-4-direction-pixel-character-sprite-pack/Tiled/Vampire1.tmx#Vampires3_Death_full": {
+            "scaleInDock": 1
+        },
+        "/Users/yavasia/Desktop/pixel art/free-vampire-4-direction-pixel-character-sprite-pack/Tiled/Vampire1.tmx#Vampires3_Hurt_full": {
+            "scaleInDock": 1
+        },
+        "/Users/yavasia/Desktop/pixel art/free-vampire-4-direction-pixel-character-sprite-pack/Tiled/Vampire1.tmx#Vampires3_Idle_full": {
+            "scaleInDock": 1
+        },
+        "/Users/yavasia/Desktop/pixel art/free-vampire-4-direction-pixel-character-sprite-pack/Tiled/Vampire1.tmx#Vampires3_Run_full": {
+            "scaleInDock": 1
+        },
+        "/Users/yavasia/Desktop/pixel art/free-vampire-4-direction-pixel-character-sprite-pack/Tiled/Vampire1.tmx#Vampires3_Walk_full": {
+            "scaleInDock": 1
+        },
+        "/Users/yavasia/Desktop/pixel art/free-vampire-4-direction-pixel-character-sprite-pack/Tiled/Vampire1.tmx#shadow": {
+            "scaleInDock": 1
+        },
+        "/Users/yavasia/Desktop/pixel art/free-vampire-4-direction-pixel-character-sprite-pack/Tiled/Vampire2.tmx": {
+            "scale": 2.073177083333333,
+            "selectedLayer": 0,
+            "viewCenter": {
+                "x": 120.10551438261528,
+                "y": 439.9045346062053
+            }
+        },
+        "/Users/yavasia/Desktop/pixel art/free-vampire-4-direction-pixel-character-sprite-pack/Tiled/Vampire2.tmx#Vampires3_Attack_full": {
+            "scaleInDock": 1
+        },
+        "/Users/yavasia/Desktop/pixel art/free-vampire-4-direction-pixel-character-sprite-pack/Tiled/Vampire2.tmx#Vampires3_Death_full": {
+            "scaleInDock": 1
+        },
+        "/Users/yavasia/Desktop/pixel art/free-vampire-4-direction-pixel-character-sprite-pack/Tiled/Vampire2.tmx#Vampires3_Hurt_full": {
+            "scaleInDock": 1
+        },
+        "/Users/yavasia/Desktop/pixel art/free-vampire-4-direction-pixel-character-sprite-pack/Tiled/Vampire2.tmx#Vampires3_Idle_full": {
+            "scaleInDock": 1
+        },
+        "/Users/yavasia/Desktop/pixel art/free-vampire-4-direction-pixel-character-sprite-pack/Tiled/Vampire2.tmx#Vampires3_Run_full": {
+            "scaleInDock": 1
+        },
+        "/Users/yavasia/Desktop/pixel art/free-vampire-4-direction-pixel-character-sprite-pack/Tiled/Vampire2.tmx#Vampires3_Walk_full": {
+            "scaleInDock": 1
+        },
+        "/Users/yavasia/Desktop/pixel art/free-vampire-4-direction-pixel-character-sprite-pack/Tiled/Vampire2.tmx#shadow": {
+            "scaleInDock": 1
+        },
+        "/Users/yavasia/Desktop/pixel art/free-vampire-4-direction-pixel-character-sprite-pack/Tiled/Vampire3.tmx": {
+            "scale": 2.073177083333333,
+            "selectedLayer": 0,
+            "viewCenter": {
+                "x": 131.1995980404472,
+                "y": 368.9988694887578
+            }
+        },
+        "/Users/yavasia/Desktop/pixel art/free-vampire-4-direction-pixel-character-sprite-pack/Tiled/Vampire3.tmx#Vampires3_Attack_full": {
+            "scaleInDock": 1
+        },
+        "/Users/yavasia/Desktop/pixel art/free-vampire-4-direction-pixel-character-sprite-pack/Tiled/Vampire3.tmx#Vampires3_Death_full": {
+            "scaleInDock": 1
+        },
+        "/Users/yavasia/Desktop/pixel art/free-vampire-4-direction-pixel-character-sprite-pack/Tiled/Vampire3.tmx#Vampires3_Hurt_full": {
+            "scaleInDock": 1
+        },
+        "/Users/yavasia/Desktop/pixel art/free-vampire-4-direction-pixel-character-sprite-pack/Tiled/Vampire3.tmx#Vampires3_Idle_full": {
+            "scaleInDock": 1
+        },
+        "/Users/yavasia/Desktop/pixel art/free-vampire-4-direction-pixel-character-sprite-pack/Tiled/Vampire3.tmx#Vampires3_Run_full": {
+            "scaleInDock": 1
+        },
+        "/Users/yavasia/Desktop/pixel art/free-vampire-4-direction-pixel-character-sprite-pack/Tiled/Vampire3.tmx#Vampires3_Walk_full": {
+            "scaleInDock": 1
+        },
+        "/Users/yavasia/Desktop/pixel art/free-vampire-4-direction-pixel-character-sprite-pack/Tiled/Vampire3.tmx#shadow": {
+            "scaleInDock": 1
+        },
+        "/Users/yavasia/Desktop/данж/Dungeon1_objects.tmx": {
+            "scale": 0.9908203124999999,
+            "selectedLayer": 0,
+            "viewCenter": {
+                "x": -105.97279716144294,
+                "y": 1042.5704711216245
+            }
+        },
+        "/Users/yavasia/Desktop/данж/Dungeon1_objects.tmx#Other_objects": {
+            "scaleInDock": 1
+        },
+        "/Users/yavasia/Desktop/данж/Dungeon1_objects.tmx#Suply_objects": {
+            "scaleInDock": 1
+        },
+        "/Users/yavasia/Desktop/данж/Dungeon1_objects.tmx#fire_trap": {
+            "scaleInDock": 1
+        },
+        "/Users/yavasia/Desktop/данж/Dungeon1_objects.tmx#pedestals": {
+            "scaleInDock": 1
+        },
+        "/Users/yavasia/Desktop/данж/Dungeon1_objects.tmx#trap_plate": {
+            "scaleInDock": 1
+        },
+        "/Users/yavasia/Desktop/данж/Dungeon1_objects.tmx#trap_saw": {
+            "scaleInDock": 1
+        },
+        "/Users/yavasia/Desktop/тайли/Dungeon1_objects.tmx": {
+            "scale": 0.99,
+            "selectedLayer": 0,
+            "viewCenter": {
+                "x": -42.424242424242436,
+                "y": 167.67676767676772
+            }
+        },
+        "/Users/yavasia/Desktop/тайли/Dungeon1_objects.tmx#Other_objects": {
+            "scaleInDock": 1
+        },
+        "/Users/yavasia/Desktop/тайли/Dungeon1_objects.tmx#Suply_objects": {
+            "scaleInDock": 1
+        },
+        "/Users/yavasia/Desktop/тайли/Dungeon1_objects.tmx#fire_trap": {
+            "scaleInDock": 1
+        },
+        "/Users/yavasia/Desktop/тайли/Dungeon1_objects.tmx#pedestals": {
+            "scaleInDock": 1
+        },
+        "/Users/yavasia/Desktop/тайли/Dungeon1_objects.tmx#trap_plate": {
+            "scaleInDock": 1
+        },
+        "/Users/yavasia/Desktop/тайли/Dungeon1_objects.tmx#trap_saw": {
+            "scaleInDock": 1
+        },
         "main.tmx": {
-            "scale": 1.2847,
+            "scale": 1.608,
             "selectedLayer": 2,
             "viewCenter": {
-                "x": 193.8195687709193,
-                "y": 371.6821047715421
+                "x": 225.12437810945272,
+                "y": 164.17910447761193
             }
         },
         "objects/player.tsx": {
@@ -40,11 +362,20 @@
         "objects/player.tsx"
     ],
     "project": "untitled.tiled-project",
-    "property.type": "bool",
+    "property.type": "string",
     "recentFiles": [
-        "main.tmx",
-        "objects/player.tsx",
-        "tileset.tsx"
+        "/Users/yavasia/Desktop/данж/Dungeon1_objects.tmx",
+        "/Users/yavasia/Desktop/тайли/Dungeon1_objects.tmx",
+        "/Users/yavasia/Desktop/pixel art/Free-Undead-Tileset-Top-Down-Pixel-Art/Tiled_files/Undead_land.tmx",
+        "/Users/yavasia/Desktop/pixel art/free-vampire-4-direction-pixel-character-sprite-pack/Tiled/Vampire1.tmx",
+        "/Users/yavasia/Desktop/pixel art/free-vampire-4-direction-pixel-character-sprite-pack/Tiled/Vampire2.tmx",
+        "/Users/yavasia/Desktop/pixel art/free-vampire-4-direction-pixel-character-sprite-pack/Tiled/Vampire3.tmx",
+        "/Users/yavasia/Desktop/pixel art/Free-Top-Down-Orc-Game-Character-Pixel-Art/Tiled_files/Orc1.tmx",
+        "/Users/yavasia/Desktop/pixel art/free-predator-plant-mobs-pixel-art-pack/Tiled_files/Plant3.tmx",
+        "/Users/yavasia/Desktop/pixel art/free-predator-plant-mobs-pixel-art-pack/Tiled_files/Plant2.tmx",
+        "/Users/yavasia/Desktop/pixel art/free-predator-plant-mobs-pixel-art-pack/Tiled_files/Plant1.tmx",
+        "/Users/yavasia/Desktop/pixel art/free-pixel-art-dungeon-objects-asset-pack/Tiled_files/Dungeon1_objects.tmx",
+        "main.tmx"
     ],
     "tileset.lastUsedFormat": "tsx",
     "tileset.margin": 8,

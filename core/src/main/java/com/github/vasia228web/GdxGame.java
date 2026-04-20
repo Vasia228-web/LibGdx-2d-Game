@@ -13,6 +13,7 @@ import com.badlogic.gdx.utils.GdxRuntimeException;
 import com.badlogic.gdx.utils.viewport.FitViewport;
 import com.badlogic.gdx.utils.viewport.Viewport;
 import com.github.vasia228web.asset.AssetService;
+import com.github.vasia228web.audio.AudioService;
 import com.github.vasia228web.screen.GameScreen;
 import com.github.vasia228web.screen.LoadingScreen;
 
@@ -33,6 +34,7 @@ public class GdxGame extends Game {
     private GLProfiler glProfiler;
     private FPSLogger fpsLogger;
     private InputMultiplexer inputMultiplexer;
+    private AudioService audioService;
 
     private final Map<Class<? extends Screen>, Screen> screenCache = new HashMap<>();
 
@@ -49,6 +51,7 @@ public class GdxGame extends Game {
         this.glProfiler = new GLProfiler(Gdx.graphics);
         this.glProfiler.enable();
         this.fpsLogger = new FPSLogger();
+        this.audioService = new AudioService(assetService);
 
         addScreen(new LoadingScreen(this, assetService));
         setScreen(LoadingScreen.class);
@@ -117,12 +120,15 @@ public class GdxGame extends Game {
     public OrthographicCamera getCamera() {
         return camera;
     }
-
     public void     setInputProcessor(InputProcessor... processors){
         inputMultiplexer.clear();
         if(processors == null)return;
         for(InputProcessor processor : processors){
             inputMultiplexer.addProcessor(processor);
         }
+    }
+
+    public AudioService getAudioService(){
+        return audioService;
     }
 }
