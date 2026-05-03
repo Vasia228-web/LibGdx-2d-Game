@@ -3,13 +3,51 @@
         "height": 4300,
         "width": 2
     },
-    "activeFile": "objects/player.tsx",
+    "activeFile": "main.tmx",
     "expandedProjectPaths": [
-        ".",
-        "objects"
+        "objects",
+        "."
     ],
     "file.lastUsedOpenFilter": "All Files (*)",
     "fileStates": {
+        "": {
+            "scaleInDock": 2.4882
+        },
+        "/Users/yavasia/Desktop/Tiled_files/Undead_land.tmx": {
+            "scale": 1.17,
+            "selectedLayer": 0,
+            "viewCenter": {
+                "x": 281.1965811965812,
+                "y": 223.07692307692315
+            }
+        },
+        "/Users/yavasia/Desktop/Tiled_files/Undead_land.tmx#Ground_rocks": {
+            "scaleInDock": 1
+        },
+        "/Users/yavasia/Desktop/Tiled_files/Undead_land.tmx#Objects": {
+            "scaleInDock": 1
+        },
+        "/Users/yavasia/Desktop/Tiled_files/Undead_land.tmx#Objects_animated": {
+            "scaleInDock": 1
+        },
+        "/Users/yavasia/Desktop/Tiled_files/Undead_land.tmx#Objects_animated2": {
+            "scaleInDock": 1
+        },
+        "/Users/yavasia/Desktop/Tiled_files/Undead_land.tmx#Objects_animated3": {
+            "scaleInDock": 1
+        },
+        "/Users/yavasia/Desktop/Tiled_files/Undead_land.tmx#Water_detilazation": {
+            "scaleInDock": 1
+        },
+        "/Users/yavasia/Desktop/Tiled_files/Undead_land.tmx#details": {
+            "scaleInDock": 1
+        },
+        "/Users/yavasia/Desktop/Tiled_files/Undead_land.tmx#water_coasts": {
+            "scaleInDock": 1
+        },
+        "/Users/yavasia/Desktop/Tiled_files/Water_detilazation2.tsx": {
+            "scaleInDock": 1
+        },
         "/Users/yavasia/Desktop/pixel art/Free-Top-Down-Orc-Game-Character-Pixel-Art/Tiled_files/Orc1.tmx": {
             "scale": 3.62,
             "selectedLayer": 0,
@@ -280,6 +318,239 @@
         "/Users/yavasia/Desktop/pixel art/free-vampire-4-direction-pixel-character-sprite-pack/Tiled/Vampire3.tmx#shadow": {
             "scaleInDock": 1
         },
+        "/Users/yavasia/Desktop/pixel art/моби/вампіри/Vampire1.tmx": {
+            "scale": 1.45,
+            "selectedLayer": 0,
+            "viewCenter": {
+                "x": 11.034482758620697,
+                "y": 321.0344827586207
+            }
+        },
+        "/Users/yavasia/Desktop/pixel art/моби/вампіри/Vampire1.tmx#Vampires3_Attack_full": {
+            "scaleInDock": 1
+        },
+        "/Users/yavasia/Desktop/pixel art/моби/вампіри/Vampire1.tmx#Vampires3_Death_full": {
+            "scaleInDock": 1
+        },
+        "/Users/yavasia/Desktop/pixel art/моби/вампіри/Vampire1.tmx#Vampires3_Hurt_full": {
+            "scaleInDock": 1
+        },
+        "/Users/yavasia/Desktop/pixel art/моби/вампіри/Vampire1.tmx#Vampires3_Idle_full": {
+            "scaleInDock": 1
+        },
+        "/Users/yavasia/Desktop/pixel art/моби/вампіри/Vampire1.tmx#Vampires3_Run_full": {
+            "scaleInDock": 1
+        },
+        "/Users/yavasia/Desktop/pixel art/моби/вампіри/Vampire1.tmx#Vampires3_Walk_full": {
+            "scaleInDock": 1
+        },
+        "/Users/yavasia/Desktop/pixel art/моби/вампіри/Vampire1.tmx#shadow": {
+            "scaleInDock": 1
+        },
+        "/Users/yavasia/Desktop/pixel art/моби/орки/Orc1.tmx": {
+            "scale": 1.67,
+            "selectedLayer": 0,
+            "viewCenter": {
+                "x": 80.83832335329342,
+                "y": 221.25748502994014
+            }
+        },
+        "/Users/yavasia/Desktop/pixel art/моби/орки/Orc1.tmx#orc1_attack_full": {
+            "scaleInDock": 1
+        },
+        "/Users/yavasia/Desktop/pixel art/моби/орки/Orc1.tmx#orc1_death_full": {
+            "scaleInDock": 1
+        },
+        "/Users/yavasia/Desktop/pixel art/моби/орки/Orc1.tmx#orc1_hurt_full": {
+            "scaleInDock": 1
+        },
+        "/Users/yavasia/Desktop/pixel art/моби/орки/Orc1.tmx#orc1_idle_full": {
+            "scaleInDock": 1
+        },
+        "/Users/yavasia/Desktop/pixel art/моби/орки/Orc1.tmx#orc1_run_attack_front_full": {
+            "scaleInDock": 1
+        },
+        "/Users/yavasia/Desktop/pixel art/моби/орки/Orc1.tmx#orc1_run_full": {
+            "scaleInDock": 1
+        },
+        "/Users/yavasia/Desktop/pixel art/моби/орки/Orc1.tmx#orc1_walk_attack_front _full": {
+            "scaleInDock": 1
+        },
+        "/Users/yavasia/Desktop/pixel art/моби/орки/Orc1.tmx#orc1_walk_full": {
+            "scaleInDock": 1
+        },
+        "/Users/yavasia/Desktop/pixel art/моби/орки/Orc1.tmx#shadow": {
+            "scaleInDock": 1
+        },
+        "/Users/yavasia/Desktop/pixel art/моби/рослини/Plant1.tmx": {
+            "scale": 1.32,
+            "selectedLayer": 0,
+            "viewCenter": {
+                "x": 128.030303030303,
+                "y": 191.66666666666669
+            }
+        },
+        "/Users/yavasia/Desktop/pixel art/моби/рослини/Plant1.tmx#Plant1_Attack_full": {
+            "scaleInDock": 1
+        },
+        "/Users/yavasia/Desktop/pixel art/моби/рослини/Plant1.tmx#Plant1_Death_full": {
+            "scaleInDock": 1
+        },
+        "/Users/yavasia/Desktop/pixel art/моби/рослини/Plant1.tmx#Plant1_Hurt_full": {
+            "scaleInDock": 1
+        },
+        "/Users/yavasia/Desktop/pixel art/моби/рослини/Plant1.tmx#Plant1_Idle_full": {
+            "scaleInDock": 1
+        },
+        "/Users/yavasia/Desktop/pixel art/моби/рослини/Plant1.tmx#Plant1_Run_full": {
+            "scaleInDock": 1
+        },
+        "/Users/yavasia/Desktop/pixel art/моби/рослини/Plant1.tmx#Plant1_Walk_full": {
+            "scaleInDock": 1
+        },
+        "/Users/yavasia/Desktop/pixel art/моби/рослини/Plant1.tmx#Shadow": {
+            "scaleInDock": 1
+        },
+        "/Users/yavasia/Desktop/pixel art/моби/слайми/Slime1.tmx": {
+            "scale": 1.45,
+            "selectedLayer": 0,
+            "viewCenter": {
+                "x": 88.27586206896552,
+                "y": 625.1724137931035
+            }
+        },
+        "/Users/yavasia/Desktop/pixel art/моби/слайми/Slime1.tmx#Slime1_Attack_body": {
+            "scaleInDock": 1
+        },
+        "/Users/yavasia/Desktop/pixel art/моби/слайми/Slime1.tmx#Slime1_Attack_full": {
+            "scaleInDock": 1
+        },
+        "/Users/yavasia/Desktop/pixel art/моби/слайми/Slime1.tmx#Slime1_Death_body": {
+            "scaleInDock": 1
+        },
+        "/Users/yavasia/Desktop/pixel art/моби/слайми/Slime1.tmx#Slime1_Death_full": {
+            "scaleInDock": 1
+        },
+        "/Users/yavasia/Desktop/pixel art/моби/слайми/Slime1.tmx#Slime1_Hurt_body": {
+            "scaleInDock": 1
+        },
+        "/Users/yavasia/Desktop/pixel art/моби/слайми/Slime1.tmx#Slime1_Hurt_full": {
+            "scaleInDock": 1
+        },
+        "/Users/yavasia/Desktop/pixel art/моби/слайми/Slime1.tmx#Slime1_Idle_body": {
+            "scaleInDock": 1
+        },
+        "/Users/yavasia/Desktop/pixel art/моби/слайми/Slime1.tmx#Slime1_Idle_full": {
+            "scaleInDock": 1
+        },
+        "/Users/yavasia/Desktop/pixel art/моби/слайми/Slime1.tmx#Slime1_Run_body": {
+            "scaleInDock": 1
+        },
+        "/Users/yavasia/Desktop/pixel art/моби/слайми/Slime1.tmx#Slime1_Run_full": {
+            "scaleInDock": 1
+        },
+        "/Users/yavasia/Desktop/pixel art/моби/слайми/Slime1.tmx#Slime1_Run_shadow": {
+            "scaleInDock": 1
+        },
+        "/Users/yavasia/Desktop/pixel art/моби/слайми/Slime1.tmx#Slime1_Walk_body": {
+            "scaleInDock": 1
+        },
+        "/Users/yavasia/Desktop/pixel art/моби/слайми/Slime1.tmx#Slime1_Walk_full": {
+            "scaleInDock": 1
+        },
+        "/Users/yavasia/Desktop/pixel art/моби/слайми/Slime1.tmx#Slime1_Walk_shadow": {
+            "scaleInDock": 1
+        },
+        "/Users/yavasia/Desktop/pixel art/моби/слайми/Slime1.tmx#Slime_Attack_Shadow": {
+            "scaleInDock": 1
+        },
+        "/Users/yavasia/Desktop/pixel art/моби/слайми/Slime1.tmx#Slime_Death_hadow": {
+            "scaleInDock": 1
+        },
+        "/Users/yavasia/Desktop/pixel art/моби/слайми/Slime1.tmx#Slime_Hurt_shadow": {
+            "scaleInDock": 1
+        },
+        "/Users/yavasia/Desktop/pixel art/моби/слайми/Slime1.tmx#Slime_Idle_shadow": {
+            "scaleInDock": 1
+        },
+        "/Users/yavasia/Desktop/pixel art/тайли/данж/Dungeon1_objects.tmx": {
+            "scale": 1.021,
+            "selectedLayer": 0,
+            "viewCenter": {
+                "x": -180.21547502448584,
+                "y": 198.82468168462293
+            }
+        },
+        "/Users/yavasia/Desktop/pixel art/тайли/данж/Dungeon1_objects.tmx#Other_objects": {
+            "scaleInDock": 1
+        },
+        "/Users/yavasia/Desktop/pixel art/тайли/данж/Dungeon1_objects.tmx#Suply_objects": {
+            "scaleInDock": 1
+        },
+        "/Users/yavasia/Desktop/pixel art/тайли/данж/Dungeon1_objects.tmx#fire_trap": {
+            "scaleInDock": 1
+        },
+        "/Users/yavasia/Desktop/pixel art/тайли/данж/Dungeon1_objects.tmx#pedestals": {
+            "scaleInDock": 1
+        },
+        "/Users/yavasia/Desktop/pixel art/тайли/данж/Dungeon1_objects.tmx#trap_plate": {
+            "scaleInDock": 1
+        },
+        "/Users/yavasia/Desktop/pixel art/тайли/данж/Dungeon1_objects.tmx#trap_saw": {
+            "scaleInDock": 1
+        },
+        "/Users/yavasia/Desktop/pixel art/тайли/данж/PNG/Dungeon1_objects.tmx": {
+            "scale": 0.52,
+            "selectedLayer": 0,
+            "viewCenter": {
+                "x": 128.8461538461538,
+                "y": -0.9615384615384528
+            }
+        },
+        "/Users/yavasia/Desktop/pixel art/тайли/данж/PNG/Dungeon1_objects.tmx#Other_objects": {
+            "scaleInDock": 1
+        },
+        "/Users/yavasia/Desktop/pixel art/тайли/данж/PNG/Dungeon1_objects.tmx#Suply_objects": {
+            "scaleInDock": 1
+        },
+        "/Users/yavasia/Desktop/pixel art/тайли/данж/PNG/Dungeon1_objects.tmx#fire_trap": {
+            "scaleInDock": 1
+        },
+        "/Users/yavasia/Desktop/pixel art/тайли/данж/PNG/Dungeon1_objects.tmx#pedestals": {
+            "scaleInDock": 1
+        },
+        "/Users/yavasia/Desktop/pixel art/тайли/данж/PNG/Dungeon1_objects.tmx#trap_plate": {
+            "scaleInDock": 1
+        },
+        "/Users/yavasia/Desktop/pixel art/тайли/данж/PNG/Dungeon1_objects.tmx#trap_saw": {
+            "scaleInDock": 1
+        },
+        "/Users/yavasia/Desktop/pixel art/тайли/данж/Tiled_files/Dungeon1_objects.tmx": {
+            "scale": 1.38,
+            "selectedLayer": 0,
+            "viewCenter": {
+                "x": 93.47826086956522,
+                "y": -61.95652173913044
+            }
+        },
+        "/Users/yavasia/Desktop/pixel art/тайли/данж/Tiled_files/Dungeon1_objects.tmx#Other_objects": {
+            "scaleInDock": 1
+        },
+        "/Users/yavasia/Desktop/pixel art/тайли/данж/Tiled_files/Dungeon1_objects.tmx#Suply_objects": {
+            "scaleInDock": 1
+        },
+        "/Users/yavasia/Desktop/pixel art/тайли/данж/Tiled_files/Dungeon1_objects.tmx#fire_trap": {
+            "scaleInDock": 1
+        },
+        "/Users/yavasia/Desktop/pixel art/тайли/данж/Tiled_files/Dungeon1_objects.tmx#pedestals": {
+            "scaleInDock": 1
+        },
+        "/Users/yavasia/Desktop/pixel art/тайли/данж/Tiled_files/Dungeon1_objects.tmx#trap_plate": {
+            "scaleInDock": 1
+        },
+        "/Users/yavasia/Desktop/pixel art/тайли/данж/Tiled_files/Dungeon1_objects.tmx#trap_saw": {
+            "scaleInDock": 1
+        },
         "/Users/yavasia/Desktop/данж/Dungeon1_objects.tmx": {
             "scale": 0.9908203124999999,
             "selectedLayer": 0,
@@ -333,56 +604,199 @@
             "scaleInDock": 1
         },
         "main.tmx": {
-            "scale": 1.608,
+            "expandedObjectLayers": [
+                4
+            ],
+            "scale": 0.4426,
             "selectedLayer": 2,
             "viewCenter": {
-                "x": 225.12437810945272,
-                "y": 164.17910447761193
+                "x": 486.8956168097605,
+                "y": 963.6240397650249
             }
+        },
+        "main.tmx#summer_3": {
+            "dynamicWrapping": false,
+            "scaleInEditor": 1
+        },
+        "objects/autum_obj/autum.tsx": {
+            "dynamicWrapping": true,
+            "scaleInDock": 0.3595,
+            "scaleInEditor": 5.13
+        },
+        "objects/building_obj/Building_obj.tsx": {
+            "dynamicWrapping": true,
+            "scaleInDock": 1,
+            "scaleInEditor": 5.13
+        },
+        "objects/desert_obj/objects_desert.tsx": {
+            "dynamicWrapping": true,
+            "scaleInDock": 0.4509,
+            "scaleInEditor": 0.39
         },
         "objects/player.tsx": {
             "dynamicWrapping": true,
             "scaleInDock": 1.37,
-            "scaleInEditor": 2.35
+            "scaleInEditor": 0.39
+        },
+        "objects/player_obj/player.tsx": {
+            "dynamicWrapping": true,
+            "scaleInDock": 1,
+            "scaleInEditor": 5.13
+        },
+        "objects/summer_obj/TX Plant.tsx": {
+            "scaleInDock": 1,
+            "scaleInEditor": 1
+        },
+        "objects/summer_obj/TX Props.tsx": {
+            "scaleInDock": 1,
+            "scaleInEditor": 1
+        },
+        "objects/summer_obj/brich_1.tsx": {
+            "dynamicWrapping": true,
+            "scaleInDock": 1,
+            "scaleInEditor": 1
+        },
+        "objects/summer_obj/forest_demo_objects.tsx": {
+            "scaleInDock": 1,
+            "scaleInEditor": 1.4444
+        },
+        "objects/summer_obj/objects_summer.tsx": {
+            "dynamicWrapping": true,
+            "scaleInDock": 0.8156,
+            "scaleInEditor": 5.13
         },
         "tileset.tsx": {
             "dynamicWrapping": false,
             "scaleInDock": 2.02,
-            "scaleInEditor": 2.35
+            "scaleInEditor": 1
+        },
+        "tileset/autum_tile/autum_tiles.tsx": {
+            "dynamicWrapping": false,
+            "scaleInDock": 1
+        },
+        "tileset/desert/desert_2.tsx": {
+            "dynamicWrapping": true,
+            "scaleInDock": 1,
+            "scaleInEditor": 1
+        },
+        "tileset/desert_tile/desert_1.tsx": {
+            "dynamicWrapping": false,
+            "scaleInDock": 0.6719,
+            "scaleInEditor": 0.59
+        },
+        "tileset/desert_tile/desert_2.tsx": {
+            "dynamicWrapping": false,
+            "scaleInDock": 0.9449,
+            "scaleInEditor": 0.59
+        },
+        "tileset/dungeon/dungeon.tsx": {
+            "dynamicWrapping": false,
+            "scaleInDock": 1,
+            "scaleInEditor": 1
+        },
+        "tileset/dungeon_tile/walls_floor_1.tsx": {
+            "scaleInDock": 1,
+            "scaleInEditor": 1.776
+        },
+        "tileset/interior_tile/interior_1.tsx": {
+            "dynamicWrapping": false,
+            "scaleInDock": 1,
+            "scaleInEditor": 4.8603
+        },
+        "tileset/summer/summer_1.tsx": {
+            "dynamicWrapping": true,
+            "scaleInDock": 1,
+            "scaleInEditor": 0.9625
+        },
+        "tileset/summer/summer_tiles.tsx": {
+            "dynamicWrapping": false,
+            "scaleInDock": 1.95,
+            "scaleInEditor": 1
+        },
+        "tileset/summer/summer_tileset.tsx": {
+            "dynamicWrapping": false,
+            "scaleInDock": 1,
+            "scaleInEditor": 1
+        },
+        "tileset/summer_tile/autum_tiles.tsx": {
+            "dynamicWrapping": false,
+            "scaleInDock": 0.879,
+            "scaleInEditor": 0.39
+        },
+        "tileset/summer_tile/struct.tsx": {
+            "dynamicWrapping": false,
+            "scaleInDock": 0.5447,
+            "scaleInEditor": 0.39
+        },
+        "tileset/summer_tile/summer_1_grass.tsx": {
+            "dynamicWrapping": false,
+            "scaleInDock": 1.3051,
+            "scaleInEditor": 0.39
+        },
+        "tileset/summer_tile/summer_1_stone.tsx": {
+            "dynamicWrapping": false,
+            "scaleInDock": 1,
+            "scaleInEditor": 0.39
+        },
+        "tileset/summer_tile/summer_2.tsx": {
+            "dynamicWrapping": false,
+            "scaleInDock": 1.805,
+            "scaleInEditor": 0.59
+        },
+        "tileset/summer_tile/summer_2_tiles.tsx": {
+            "dynamicWrapping": false,
+            "scaleInDock": 1.9259,
+            "scaleInEditor": 1
+        },
+        "tileset/summer_tile/summer_3.tsx": {
+            "dynamicWrapping": false,
+            "scaleInDock": 2.9246,
+            "scaleInEditor": 0.59
+        },
+        "tileset/summer_tile/wall.tsx": {
+            "dynamicWrapping": false,
+            "scaleInDock": 0.8533,
+            "scaleInEditor": 0.39
         }
     },
     "frame.defaultDuration": 200,
-    "last.imagePath": "/Users/yavasia/Desktop/LibGdx/assets/maps/objects",
+    "last.externalTilesetPath": "/Users/yavasia/Desktop/LibGdx/assets/maps/tileset/summer_tile",
+    "last.imagePath": "/Users/yavasia/Desktop/LibGdx/assets_raw/objects/player",
+    "map.height": 50,
     "map.lastUsedFormat": "tmx",
     "map.layerDataFormat": "3",
     "map.tileHeight": 16,
     "map.tileWidth": 16,
+    "map.width": 50,
     "openFiles": [
         "main.tmx",
-        "objects/player.tsx"
+        "objects/summer_obj/objects_summer.tsx",
+        "objects/building_obj/Building_obj.tsx",
+        "objects/autum_obj/autum.tsx",
+        "objects/player_obj/player.tsx"
     ],
     "project": "untitled.tiled-project",
-    "property.type": "string",
+    "property.type": "float",
     "recentFiles": [
-        "/Users/yavasia/Desktop/данж/Dungeon1_objects.tmx",
-        "/Users/yavasia/Desktop/тайли/Dungeon1_objects.tmx",
-        "/Users/yavasia/Desktop/pixel art/Free-Undead-Tileset-Top-Down-Pixel-Art/Tiled_files/Undead_land.tmx",
-        "/Users/yavasia/Desktop/pixel art/free-vampire-4-direction-pixel-character-sprite-pack/Tiled/Vampire1.tmx",
-        "/Users/yavasia/Desktop/pixel art/free-vampire-4-direction-pixel-character-sprite-pack/Tiled/Vampire2.tmx",
-        "/Users/yavasia/Desktop/pixel art/free-vampire-4-direction-pixel-character-sprite-pack/Tiled/Vampire3.tmx",
-        "/Users/yavasia/Desktop/pixel art/Free-Top-Down-Orc-Game-Character-Pixel-Art/Tiled_files/Orc1.tmx",
-        "/Users/yavasia/Desktop/pixel art/free-predator-plant-mobs-pixel-art-pack/Tiled_files/Plant3.tmx",
-        "/Users/yavasia/Desktop/pixel art/free-predator-plant-mobs-pixel-art-pack/Tiled_files/Plant2.tmx",
-        "/Users/yavasia/Desktop/pixel art/free-predator-plant-mobs-pixel-art-pack/Tiled_files/Plant1.tmx",
-        "/Users/yavasia/Desktop/pixel art/free-pixel-art-dungeon-objects-asset-pack/Tiled_files/Dungeon1_objects.tmx",
-        "main.tmx"
+        "objects/player_obj/player.tsx",
+        "objects/autum_obj/autum.tsx",
+        "objects/building_obj/Building_obj.tsx",
+        "objects/summer_obj/objects_summer.tsx",
+        "main.tmx",
+        "tileset/summer_tile/autum_tiles.tsx",
+        "objects/player.tsx",
+        "tileset/summer_tile/summer_1_stone.tsx",
+        "tileset/summer_tile/summer_1_grass.tsx",
+        "objects/desert_obj/objects_desert.tsx",
+        "tileset/summer_tile/struct.tsx",
+        "tileset/summer_tile/wall.tsx"
     ],
     "tileset.lastUsedFormat": "tsx",
-    "tileset.margin": 8,
-    "tileset.spacing": 16,
+    "tileset.margin": 0,
+    "tileset.spacing": 0,
     "tileset.tileSize": {
-        "height": 16,
-        "width": 16
+        "height": 32,
+        "width": 32
     },
     "tileset.type": 1
 }

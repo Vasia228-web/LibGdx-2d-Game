@@ -96,6 +96,39 @@ public class TiledAshleyConfigurator {
 
     }
 
+    public void onLoadTrigger(MapObject mapObject) {
+        String type = mapObject.getProperties().get("type", String.class);
+
+        if ("teleport".equals(type)) {
+            String mapName = mapObject.getProperties().get("mapName", String.class);
+            float targetX = mapObject.getProperties().get("targetX", Float.class);
+            float targetY = mapObject.getProperties().get("targetY", Float.class);
+            float x = mapObject.getProperties().get("x", Float.class);
+            float y = mapObject.getProperties().get("y", Float.class);
+            float width = mapObject.getProperties().get("width", Float.class);
+            float height = mapObject.getProperties().get("height", Float.class);
+
+            Entity entity = this.engine.createEntity();
+
+            Triggers triggers = engine.createComponent(Triggers.class);
+            triggers.mapName = mapName;
+            triggers.targetX = targetX;
+            triggers.targetY = targetY;
+            entity.add(triggers);
+
+            addEntityTransform(x, y, 0, width, height, 1f, 1f, entity);
+
+            MapObjects triggerObjects = new MapObjects();
+            triggerObjects.add(mapObject);
+
+            mapObject.getProperties().put("isSensor", true);
+            addEntityPhysic(triggerObjects, BodyDef.BodyType.StaticBody, Vector2.Zero, entity);
+
+            engine.addEntity(entity);
+
+        }
+    }
+
     private void addEntityCameraFollow(TiledMapTileMapObject tileMapObject, Entity entity) {
         Boolean camFollow = tileMapObject.getProperties().get("camFollow", false, Boolean.class);
         if(!camFollow)return;

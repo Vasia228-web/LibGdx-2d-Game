@@ -79,6 +79,7 @@ public class GameScreen extends ScreenAdapter {
         this.tiledService.setMapChangeConsumer(renderConsumer.andThen(cameraConsumer).andThen(audioConsumer));
         this.tiledService.setLoadObjectsConsumer(this.tiledAshleyConfigurator::onLoadObject);
         this.tiledService.setLoadTileConsumer(tiledAshleyConfigurator::onLoadTile);
+        this.tiledService.setLoadTriggerConsumer(this.tiledAshleyConfigurator::onLoadTrigger);
 
         TiledMap tiledMap = this.tiledService.loadMap(MapAsset.MAIN);
         this.tiledService.setMap(tiledMap);

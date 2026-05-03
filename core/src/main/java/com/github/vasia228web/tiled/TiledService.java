@@ -28,7 +28,9 @@ public class TiledService {
 
     private Consumer<TiledMap> mapChangedConsumer;
     private Consumer<TiledMapTileMapObject> loadObjectsConsumer;
+    private Consumer<MapObject> loadTriggerConsumer;
     private LoadTileConsumer loadTileConsumer;
+
 
     public TiledService(AssetService assetService,  World physicWorld) {
         this.assetService = assetService;
@@ -36,6 +38,7 @@ public class TiledService {
         this.loadObjectsConsumer = null;
         this.currentMap = null;
         this.loadTileConsumer = null;
+        this.loadTriggerConsumer = null;
         this.physicWorld = physicWorld;
     }
 
@@ -62,12 +65,22 @@ public class TiledService {
         for(MapLayer layer : tiledMap.getLayers()){
             if("Objects".equals(layer.getName())){
                 loadObjectLayer(layer);
-            }else if(layer instanceof TiledMapTileLayer tileLayer){
+            } else if ("triggers".equals(layer.getName())) {
+                loadTriggerLayer(layer);
+
+            } else if(layer instanceof TiledMapTileLayer tileLayer){
                 loadTileLayer(tileLayer);
             }
         }
         spawnMapBoundary(tiledMap);
 
+    }
+    private void loadTriggerLayer(MapLayer triggerLayer) {
+        if(triggerLayer ==  null) return;
+
+        for(MapObject mapObject : triggerLayer.getObjects()){
+            loadTriggerConsumer.accept(mapObject);
+        }
     }
 
     private void spawnMapBoundary(TiledMap tiledMap) {
@@ -154,5 +167,8 @@ public class TiledService {
 
     public void setLoadObjectsConsumer(Consumer<TiledMapTileMapObject> loadObjectsConsumer) {
         this.loadObjectsConsumer = loadObjectsConsumer;
+    }
+    public void setLoadTriggerConsumer(Consumer<MapObject> loadTriggerConsumer) {
+        this.loadTriggerConsumer = loadTriggerConsumer;
     }
 }

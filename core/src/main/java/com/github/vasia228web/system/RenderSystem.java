@@ -94,7 +94,7 @@ public class RenderSystem extends SortedIteratingSystem implements Disposable {
         this.bgdLayers.clear();
         List<MapLayer>currentLayers = bgdLayers;
         for (MapLayer layer : tiledMap.getLayers()) {
-            if("objects".equals(layer.getName())){
+            if("objects".equalsIgnoreCase(layer.getName())){
                 currentLayers = fgdLayers;
                 continue;
             }
