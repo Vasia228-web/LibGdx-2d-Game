@@ -45,7 +45,11 @@ public class KeyboardController extends InputAdapter {
         this.activeState = controllerState;
     }
 
-
+    public void forceClearCommands() {
+        for (Command command : Command.values()) {
+            this.commandState[command.ordinal()] = false;
+        }
+    }
 
     @Override
     public boolean keyDown(int keycode) {

@@ -7,24 +7,23 @@ import com.badlogic.ashley.utils.ImmutableArray;
 
 
 public class GameControllerState implements ControllerState {
-    private final ImmutableArray<Entity> controllerEntities;
+    private final Engine engine;
 
     public GameControllerState(Engine engine) {
-        this.controllerEntities = engine.getEntitiesFor(Family.all(Controller.class).get());
+        this.engine = engine;
     }
+
     @Override
     public void keyDown(Command command) {
-        for (Entity entity : controllerEntities) {
+        for (Entity entity : engine.getEntitiesFor(Family.all(Controller.class).get())) {
             Controller.MAPPER.get(entity).getPressedCommands().add(command);
         }
     }
 
     @Override
     public void keyUp(Command command) {
-       for (Entity entity : controllerEntities) {
-           Controller.MAPPER.get(entity).getReleasedCommands().add(command);
-
-       }
+        for (Entity entity : engine.getEntitiesFor(Family.all(Controller.class).get())) {
+            Controller.MAPPER.get(entity).getReleasedCommands().add(command);
+        }
     }
-
 }

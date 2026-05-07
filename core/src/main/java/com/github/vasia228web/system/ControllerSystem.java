@@ -41,6 +41,7 @@ public class ControllerSystem  extends IteratingSystem{
         controller.getReleasedCommands().clear();
     }
 
+
     private void moveEntity(Entity entity, float directionX, float directionY) {
         Move move = Move.MAPPER.get(entity);
         if(move == null) return;

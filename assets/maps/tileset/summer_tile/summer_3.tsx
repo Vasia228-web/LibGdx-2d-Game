@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <tileset version="1.10" tiledversion="1.11.2" name="summer_3" tilewidth="16" tileheight="16" spacing="16" margin="8" tilecount="192" columns="12">
- <image source="../../../../assets_raw/tileset/summer/summer + desert.png" width="384" height="512"/>
+ <image source="../../../../assets_raw/tileset/summer/summer_desert.png" width="384" height="512"/>
  <tile id="0">
   <objectgroup draworder="index" id="2">
    <object id="2" x="6.25986" y="15.7309">

@@ -133,7 +133,7 @@
   <object id="131" gid="223" x="1448.9" y="2092.24" width="31" height="32"/>
   <object id="132" gid="215" x="1617.35" y="2068.08" width="57" height="80"/>
   <object id="133" gid="215" x="1701.8" y="2086.23" width="57" height="80"/>
-  <object id="134" gid="215" x="1794.62" y="2088.32" width="57" height="80"/>
+  <object id="134" gid="215" x="1794.11" y="2090.09" width="57" height="80"/>
   <object id="135" gid="215" x="1900.7" y="2080.64" width="57" height="80"/>
   <object id="136" gid="222" x="1764.05" y="2048.64" width="32" height="16"/>
   <object id="137" gid="232" x="1845.75" y="2099.49" width="64" height="80"/>
@@ -605,7 +605,7 @@
   <object id="630" gid="286" x="1506.94" y="1413.17" width="128" height="128"/>
   <object id="631" gid="282" x="1745.86" y="1566.75" width="64" height="64"/>
   <object id="632" gid="282" x="1763.49" y="1339.41" width="64" height="64"/>
-  <object id="633" gid="1266" x="912.408" y="1194.56" width="48" height="64">
+  <object id="633" gid="1266" x="1827.21" y="2040.83" width="48" height="64">
    <properties>
     <property name="camFollow" type="bool" value="true"/>
     <property name="controller" type="bool" value="true"/>
@@ -613,11 +613,11 @@
   </object>
  </objectgroup>
  <objectgroup id="6" name="triggers">
-  <object id="636" x="1844.29" y="1967.05" width="12.4245" height="22.4331">
+  <object id="636" x="1844.29" y="1966.04" width="12.4245" height="25.7181">
    <properties>
-    <property name="mapName" value="house.tmx"/>
-    <property name="targetX" type="float" value="100"/>
-    <property name="targetY" type="float" value="100"/>
+    <property name="mapName" value="house"/>
+    <property name="targetX" type="float" value="23.5"/>
+    <property name="targetY" type="float" value="18"/>
     <property name="type" value="teleport"/>
    </properties>
   </object>

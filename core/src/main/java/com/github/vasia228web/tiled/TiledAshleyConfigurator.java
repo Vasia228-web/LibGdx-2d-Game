@@ -22,6 +22,7 @@ import com.github.vasia228web.component.Animation2D.AnimationType;
 import com.github.vasia228web.component.Facing.FacingDirection;
 import com.github.vasia228web.component.Transform;
 import com.github.vasia228web.input.Controller;
+import com.github.vasia228web.tag.PlayerTag;
 
 public class TiledAshleyConfigurator {
     private static final Vector2 DEFAULT_PHYSIC_SCALING  = new Vector2(1f, 1f);
@@ -121,8 +122,9 @@ public class TiledAshleyConfigurator {
             MapObjects triggerObjects = new MapObjects();
             triggerObjects.add(mapObject);
 
-            mapObject.getProperties().put("isSensor", true);
-            addEntityPhysic(triggerObjects, BodyDef.BodyType.StaticBody, Vector2.Zero, entity);
+            mapObject.getProperties().put("sensor", true);
+            Vector2 position = new Vector2(x * GdxGame.UNIT_SCALE, y * GdxGame.UNIT_SCALE);
+            addEntityPhysic(triggerObjects, BodyDef.BodyType.StaticBody, position, entity);
 
             engine.addEntity(entity);
 

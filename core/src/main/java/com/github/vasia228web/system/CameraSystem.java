@@ -77,4 +77,13 @@ public class CameraSystem extends IteratingSystem {
 
     }
 
+
+    public void teleportCamera(float x, float y) {
+        this.camera.position.set(x, y, this.camera.position.z);
+        this.camera.update();
+        this.targetPosition.set(x, y);
+    }
+    public Camera getCamera() {
+        return this.camera;
+    }
 }

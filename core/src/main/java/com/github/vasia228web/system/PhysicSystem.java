@@ -4,6 +4,7 @@ import com.badlogic.ashley.core.Engine;
 import com.badlogic.ashley.core.Entity;
 import com.badlogic.ashley.core.Family;
 import com.badlogic.ashley.systems.IteratingSystem;
+import com.badlogic.gdx.Gdx;
 import com.badlogic.gdx.math.MathUtils;
 import com.badlogic.gdx.physics.box2d.Body;
 import com.github.vasia228web.component.Transform;
@@ -58,6 +59,7 @@ public class PhysicSystem extends IteratingSystem{
         Body body = physic.getBody();
 
         if (body == null) return;
+
 
         transform.getPosition().set(
             MathUtils.lerp(physic.getPrevPosition().x, physic.getBody().getPosition().x,alpha),

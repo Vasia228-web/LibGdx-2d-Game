@@ -3,7 +3,7 @@
         "height": 4300,
         "width": 2
     },
-    "activeFile": "main.tmx",
+    "activeFile": "interior_map/house.tmx",
     "expandedProjectPaths": [
         "objects",
         "."
@@ -603,15 +603,28 @@
         "/Users/yavasia/Desktop/тайли/Dungeon1_objects.tmx#trap_saw": {
             "scaleInDock": 1
         },
+        "interior_map/house.tmx": {
+            "expandedObjectLayers": [
+                6,
+                8
+            ],
+            "scale": 5.6996,
+            "selectedLayer": 3,
+            "viewCenter": {
+                "x": 435.38143027580884,
+                "y": 482.31454838936065
+            }
+        },
         "main.tmx": {
             "expandedObjectLayers": [
-                4
+                4,
+                6
             ],
-            "scale": 0.4426,
+            "scale": 5.08,
             "selectedLayer": 2,
             "viewCenter": {
-                "x": 486.8956168097605,
-                "y": 963.6240397650249
+                "x": 1846.1614173228345,
+                "y": 2007.8740157480313
             }
         },
         "main.tmx#summer_3": {
@@ -621,17 +634,22 @@
         "objects/autum_obj/autum.tsx": {
             "dynamicWrapping": true,
             "scaleInDock": 0.3595,
-            "scaleInEditor": 5.13
+            "scaleInEditor": 2.4
         },
         "objects/building_obj/Building_obj.tsx": {
             "dynamicWrapping": true,
             "scaleInDock": 1,
-            "scaleInEditor": 5.13
+            "scaleInEditor": 2.4
         },
         "objects/desert_obj/objects_desert.tsx": {
             "dynamicWrapping": true,
             "scaleInDock": 0.4509,
-            "scaleInEditor": 0.39
+            "scaleInEditor": 2.4
+        },
+        "objects/interior_obj/interior_obj.tsx": {
+            "dynamicWrapping": true,
+            "scaleInDock": 1.2757,
+            "scaleInEditor": 2.4
         },
         "objects/player.tsx": {
             "dynamicWrapping": true,
@@ -641,7 +659,7 @@
         "objects/player_obj/player.tsx": {
             "dynamicWrapping": true,
             "scaleInDock": 1,
-            "scaleInEditor": 5.13
+            "scaleInEditor": 2.4
         },
         "objects/summer_obj/TX Plant.tsx": {
             "scaleInDock": 1,
@@ -663,7 +681,7 @@
         "objects/summer_obj/objects_summer.tsx": {
             "dynamicWrapping": true,
             "scaleInDock": 0.8156,
-            "scaleInEditor": 5.13
+            "scaleInEditor": 2.4
         },
         "tileset.tsx": {
             "dynamicWrapping": false,
@@ -672,7 +690,8 @@
         },
         "tileset/autum_tile/autum_tiles.tsx": {
             "dynamicWrapping": false,
-            "scaleInDock": 1
+            "scaleInDock": 0.9637,
+            "scaleInEditor": 2.4
         },
         "tileset/desert/desert_2.tsx": {
             "dynamicWrapping": true,
@@ -702,6 +721,16 @@
             "dynamicWrapping": false,
             "scaleInDock": 1,
             "scaleInEditor": 4.8603
+        },
+        "tileset/interior_tile/interior_tile.tsx": {
+            "dynamicWrapping": false,
+            "scaleInDock": 3.0456,
+            "scaleInEditor": 2.4
+        },
+        "tileset/interior_tile/interior_tile2.tsx": {
+            "dynamicWrapping": false,
+            "scaleInDock": 1,
+            "scaleInEditor": 2.7813
         },
         "tileset/summer/summer_1.tsx": {
             "dynamicWrapping": true,
@@ -761,7 +790,7 @@
     },
     "frame.defaultDuration": 200,
     "last.externalTilesetPath": "/Users/yavasia/Desktop/LibGdx/assets/maps/tileset/summer_tile",
-    "last.imagePath": "/Users/yavasia/Desktop/LibGdx/assets_raw/objects/player",
+    "last.imagePath": "/Users/yavasia/Downloads",
     "map.height": 50,
     "map.lastUsedFormat": "tmx",
     "map.layerDataFormat": "3",
@@ -773,23 +802,28 @@
         "objects/summer_obj/objects_summer.tsx",
         "objects/building_obj/Building_obj.tsx",
         "objects/autum_obj/autum.tsx",
-        "objects/player_obj/player.tsx"
+        "objects/player_obj/player.tsx",
+        "objects/desert_obj/objects_desert.tsx",
+        "tileset/autum_tile/autum_tiles.tsx",
+        "interior_map/house.tmx",
+        "tileset/interior_tile/interior_tile.tsx",
+        "objects/interior_obj/interior_obj.tsx"
     ],
     "project": "untitled.tiled-project",
     "property.type": "float",
     "recentFiles": [
-        "objects/player_obj/player.tsx",
-        "objects/autum_obj/autum.tsx",
-        "objects/building_obj/Building_obj.tsx",
-        "objects/summer_obj/objects_summer.tsx",
         "main.tmx",
-        "tileset/summer_tile/autum_tiles.tsx",
-        "objects/player.tsx",
-        "tileset/summer_tile/summer_1_stone.tsx",
-        "tileset/summer_tile/summer_1_grass.tsx",
+        "objects/summer_obj/objects_summer.tsx",
+        "objects/building_obj/Building_obj.tsx",
+        "objects/autum_obj/autum.tsx",
+        "objects/player_obj/player.tsx",
         "objects/desert_obj/objects_desert.tsx",
-        "tileset/summer_tile/struct.tsx",
-        "tileset/summer_tile/wall.tsx"
+        "tileset/autum_tile/autum_tiles.tsx",
+        "objects/interior_obj/interior_obj.tsx",
+        "tileset/interior_tile/interior_tile.tsx",
+        "interior_map/house.tmx",
+        "tileset/interior_tile/interior_tile2.tsx",
+        "tileset/summer_tile/autum_tiles.tsx"
     ],
     "tileset.lastUsedFormat": "tsx",
     "tileset.margin": 0,
@@ -798,5 +832,5 @@
         "height": 32,
         "width": 32
     },
-    "tileset.type": 1
+    "tileset.type": 0
 }

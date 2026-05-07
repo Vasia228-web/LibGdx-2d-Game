@@ -5,7 +5,7 @@ import com.badlogic.ashley.core.Component;import com.badlogic.ashley.core.Compon
 public class Transform  implements Component, Comparable<Transform> {
     public static final ComponentMapper<Transform> MAPPER = ComponentMapper.getFor(Transform.class);
 
-    private final Vector2 position;
+    public final Vector2 position;
     private final int z;
     private final Vector2 size;
     private final Vector2 scaling;
