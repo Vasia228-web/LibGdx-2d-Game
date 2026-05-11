@@ -3,6 +3,7 @@ package com.github.vasia228web.tiled;
 import com.badlogic.ashley.core.Engine;
 import com.badlogic.ashley.core.Entity;
 
+import com.badlogic.gdx.Gdx;
 import com.badlogic.gdx.graphics.Color;
 import com.badlogic.gdx.graphics.g2d.Animation.PlayMode;
 import com.badlogic.gdx.graphics.g2d.TextureAtlas;
@@ -10,6 +11,7 @@ import com.badlogic.gdx.graphics.g2d.TextureRegion;
 import com.badlogic.gdx.graphics.glutils.FileTextureData;
 import com.badlogic.gdx.maps.MapObject;
 import com.badlogic.gdx.maps.MapObjects;
+import com.badlogic.gdx.maps.objects.RectangleMapObject;
 import com.badlogic.gdx.maps.tiled.TiledMapTile;
 import com.badlogic.gdx.maps.tiled.objects.TiledMapTileMapObject;
 import com.badlogic.gdx.math.Vector2;
@@ -34,6 +36,7 @@ public class TiledAshleyConfigurator {
         this.engine = engine;
         this.assetService = assetService;
         this.physicsWorld = physicsWorld;
+
    }
 
     public void onLoadTile(TiledMapTile tiledMapTile, float x, float y) {
@@ -71,7 +74,22 @@ public class TiledAshleyConfigurator {
     }
 
 
+
     public void onLoadObject(TiledMapTileMapObject tileMapObject){
+
+        String objectType = tileMapObject.getProperties().get("objectType", String.class);
+
+        if (objectType == null) {
+            objectType = tileMapObject.getTile()
+                .getProperties()
+                .get("objectType", String.class);
+        }
+
+        if ("npc".equals(objectType)) {
+            createNpc(tileMapObject);
+            return;
+        }
+
         Entity entity = this.engine.createEntity();
         TiledMapTile tile = tileMapObject.getTile();
         TextureRegion textureRegion = getTextureRegion(tile);
@@ -96,6 +114,73 @@ public class TiledAshleyConfigurator {
         this.engine.addEntity(entity);
 
     }
+
+    public void createNpc(TiledMapTileMapObject mapObject) {
+
+        String npcId = mapObject.getProperties().get("npcId", String.class);
+        if (npcId == null) {
+            npcId = mapObject.getTile()
+                .getProperties()
+                .get("npcId", String.class);
+        }
+
+        float x = mapObject.getProperties().get("x", Float.class);
+        float y = mapObject.getProperties().get("y", Float.class);
+        float width = mapObject.getProperties().get("width", Float.class);
+        float height = mapObject.getProperties().get("height", Float.class);
+
+        Entity entity = engine.createEntity();
+
+        entity.add(new NPC(npcId));
+
+        TiledMapTile tile = mapObject.getTile();
+        TextureRegion textureRegion = getTextureRegion(tile);
+
+        entity.add(new Graphic(Color.WHITE.cpy(), textureRegion));
+
+
+        addEntityTransform(
+            x, y, 0,
+            textureRegion.getRegionWidth(),
+            textureRegion.getRegionHeight(),
+            mapObject.getScaleX(),
+            mapObject.getScaleY(),
+            entity
+        );
+
+        MapObjects npcPhysicsObjects = new MapObjects();
+
+        RectangleMapObject npcCollision = new RectangleMapObject(x, y, width, height);
+        npcCollision.getProperties().put("sensor", false);
+        npcPhysicsObjects.add(npcCollision);
+
+        float padding = 16f;
+
+        RectangleMapObject interactionZone = new RectangleMapObject(
+            x - padding,
+            y - padding,
+            width + padding * 2f,
+            height + padding * 2f
+        );
+        interactionZone.getProperties().put("sensor", true);
+        npcPhysicsObjects.add(interactionZone);
+
+        Vector2 position = new Vector2(
+            x * GdxGame.UNIT_SCALE,
+            y * GdxGame.UNIT_SCALE
+        );
+
+        addEntityPhysic(
+            npcPhysicsObjects,
+            BodyDef.BodyType.StaticBody,
+            position,
+            entity
+        );
+
+
+        engine.addEntity(entity);
+    }
+
 
     public void onLoadTrigger(MapObject mapObject) {
         String type = mapObject.getProperties().get("type", String.class);

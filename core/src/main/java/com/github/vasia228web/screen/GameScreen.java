@@ -14,6 +14,9 @@ import com.badlogic.gdx.utils.viewport.Viewport;
 import com.github.vasia228web.GdxGame;
 import com.github.vasia228web.asset.MapAsset;
 import com.github.vasia228web.audio.AudioService;
+import com.github.vasia228web.dialogue.DialogueData;
+import com.github.vasia228web.dialogue.DialogueRepository;
+import com.github.vasia228web.dialogue.DialogueSystem;
 import com.github.vasia228web.input.GameControllerState;
 import com.github.vasia228web.input.KeyboardController;
 import com.github.vasia228web.system.*;
@@ -34,6 +37,9 @@ public class GameScreen extends ScreenAdapter {
     private final Viewport uiViewport;
     private final MapTransitionService mapTransitionService;
     private final CameraSystem cameraSystem;
+    private final DialogueRepository dialogueRepository;
+    private final DialogueSystem dialogueSystem;
+
 
     public GameScreen(GdxGame game){
         this.game = game;
@@ -49,19 +55,21 @@ public class GameScreen extends ScreenAdapter {
         this.stage = new Stage(uiViewport, game.getBatch());
         this.cameraSystem = new CameraSystem(game.getCamera());
         this.mapTransitionService = new MapTransitionService(engine,physicsWorld,tiledService,cameraSystem,keyboardController);
+        this.dialogueRepository = new DialogueRepository();
+        this.dialogueSystem = new DialogueSystem(dialogueRepository);
 
         this.engine.addSystem(new ControllerSystem());
         this.engine.addSystem(new PhysicMoveSystem());
         this.engine.addSystem(new FsmSystem());
         this.engine.addSystem(new FacingSystem());
-        this.engine.addSystem(new InteractionSystem(mapTransitionService));
+        this.engine.addSystem(new InteractionSystem(mapTransitionService, dialogueSystem));
         this.engine.addSystem(new PhysicSystem(physicsWorld, 1/60f));
         this.engine.addSystem(new DestroySystem(physicsWorld));
         this.engine.addSystem(new AnimationSystem(game.getAssetService()));
         this.engine.addSystem(cameraSystem);
         this.engine.addSystem(new RenderSystem(game.getBatch(), game.getViewport(),game.getCamera()));
         this.engine.addSystem(new PhysicDebugRenderSystem(physicsWorld, game.getCamera()));
-        this.engine.addSystem(new UISystem(game.getBatch(), this.uiViewport));
+        this.engine.addSystem(new UISystem(game.getBatch(), this.uiViewport, dialogueSystem));
 
     }
 

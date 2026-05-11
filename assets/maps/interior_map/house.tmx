@@ -1,10 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<map version="1.10" tiledversion="1.11.2" orientation="orthogonal" renderorder="right-down" width="50" height="50" tilewidth="16" tileheight="16" infinite="0" nextlayerid="9" nextobjectid="228">
+<map version="1.10" tiledversion="1.11.2" orientation="orthogonal" renderorder="right-down" width="50" height="50" tilewidth="16" tileheight="16" infinite="0" nextlayerid="9" nextobjectid="231">
  <tileset firstgid="1" source="../tileset/interior_tile/interior_tile.tsx"/>
  <tileset firstgid="92" source="../objects/interior_obj/interior_obj.tsx"/>
  <tileset firstgid="113" source="../objects/player_obj/player.tsx"/>
  <tileset firstgid="114" source="../tileset/summer_tile/summer_3.tsx"/>
  <tileset firstgid="306" source="../objects/summer_obj/objects_summer.tsx"/>
+ <tileset firstgid="404" source="../objects/npc_obj/npc_women.tsx"/>
  <layer id="1" name="ground" width="50" height="50">
   <data encoding="base64" compression="zlib">
    eJztz8EJACAMBMH4sxP779AKRFAJEWbhniFMhCRJ0n+Nlj8ODg4Ojje/OfIcPfbj4ODg4ODgqO1YmU7uqzhux8HBwcHBUcUhSZJqNgFLCHT5
@@ -52,7 +53,7 @@
   <object id="52" gid="99" x="425.292" y="430.296" width="17" height="30"/>
   <object id="53" gid="108" x="336.054" y="451.764" width="23" height="48"/>
   <object id="59" gid="109" x="332.227" y="478.928" width="16" height="31"/>
-  <object id="66" gid="113" x="381.609" y="460.06" width="48" height="64">
+  <object id="66" gid="113" x="384.958" y="492.835" width="48" height="64">
    <properties>
     <property name="camFollow" type="bool" value="true"/>
     <property name="controller" type="bool" value="true"/>
@@ -81,7 +82,7 @@
   <object id="164" gid="398" x="436.662" y="584.159" width="128" height="128"/>
   <object id="165" gid="398" x="365.636" y="592.515" width="128" height="128"/>
   <object id="167" gid="398" x="222.888" y="363.422" width="128" height="128"/>
-  <object id="168" gid="394" x="214.532" y="496.421" width="128" height="128"/>
+  <object id="168" gid="394" x="231.084" y="481.659" width="128" height="128"/>
   <object id="169" gid="343" x="307.349" y="409.783" width="12" height="16"/>
   <object id="170" gid="343" x="312.919" y="340.15" width="12" height="16"/>
   <object id="171" gid="341" x="313.312" y="374.27" width="14" height="16"/>
@@ -139,6 +140,7 @@
   <object id="224" gid="344" x="256.124" y="322.83" width="11" height="11"/>
   <object id="225" gid="344" x="506.803" y="235.093" width="11" height="11"/>
   <object id="226" gid="344" x="580.614" y="282.443" width="11" height="11"/>
+  <object id="230" gid="404" x="385.683" y="395.094" width="15" height="31"/>
  </objectgroup>
  <objectgroup id="8" name="triggers">
   <object id="227" x="384.664" y="479.84" width="46.9585" height="16.0127">

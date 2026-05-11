@@ -41,7 +41,7 @@ autum/Broken_tree2
   index: -1
 autum/Broken_tree3
   rotate: false
-  xy: 520, 594
+  xy: 615, 273
   size: 48, 48
   orig: 48, 48
   offset: 0, 0
@@ -202,7 +202,7 @@ autum/rock
   index: 3
 autum/rock
   rotate: false
-  xy: 572, 594
+  xy: 520, 594
   size: 57, 42
   orig: 57, 42
   offset: 0, 0
@@ -328,28 +328,28 @@ desert/Bones_shadow2
   index: 11
 desert/Burned_tree1
   rotate: false
-  xy: 547, 264
+  xy: 547, 273
   size: 32, 32
   orig: 32, 32
   offset: 0, 0
   index: -1
 summer/Burned_tree1
   rotate: false
-  xy: 547, 264
+  xy: 547, 273
   size: 32, 32
   orig: 32, 32
   offset: 0, 0
   index: -1
 desert/Burned_tree2
   rotate: false
-  xy: 583, 264
+  xy: 742, 374
   size: 32, 32
   orig: 32, 32
   offset: 0, 0
   index: -1
 summer/Burned_tree2
   rotate: false
-  xy: 583, 264
+  xy: 742, 374
   size: 32, 32
   orig: 32, 32
   offset: 0, 0
@@ -377,32 +377,18 @@ summer/Cactus1
   index: 3
 desert/Cactus1
   rotate: false
-  xy: 982, 216
+  xy: 978, 36
   size: 32, 32
   orig: 32, 32
   offset: 0, 0
   index: 1
 summer/Cactus1
   rotate: false
-  xy: 982, 216
+  xy: 978, 36
   size: 32, 32
   orig: 32, 32
   offset: 0, 0
   index: 1
-desert/Cactus1
-  rotate: false
-  xy: 982, 180
-  size: 32, 32
-  orig: 32, 32
-  offset: 0, 0
-  index: 2
-summer/Cactus1
-  rotate: false
-  xy: 982, 180
-  size: 32, 32
-  orig: 32, 32
-  offset: 0, 0
-  index: 2
 desert/Cactus2
   rotate: false
   xy: 681, 556
@@ -431,20 +417,6 @@ summer/Cactus2
   orig: 16, 16
   offset: 0, 0
   index: 3
-desert/Cactus2
-  rotate: false
-  xy: 960, 76
-  size: 32, 32
-  orig: 32, 32
-  offset: 0, 0
-  index: 2
-summer/Cactus2
-  rotate: false
-  xy: 960, 76
-  size: 32, 32
-  orig: 32, 32
-  offset: 0, 0
-  index: 2
 desert/Palm_tree1
   rotate: false
   xy: 520, 720
@@ -489,35 +461,35 @@ desert/Palm_tree2
   index: 3
 desert/Rock6
   rotate: false
-  xy: 654, 201
+  xy: 814, 74
   size: 16, 16
   orig: 16, 16
   offset: 0, 0
   index: 5
 summer/Rock6
   rotate: false
-  xy: 654, 201
+  xy: 814, 74
   size: 16, 16
   orig: 16, 16
   offset: 0, 0
   index: 5
 desert/Rock6_5_no_shadow
   rotate: false
-  xy: 989, 384
+  xy: 834, 76
   size: 16, 16
   orig: 16, 16
   offset: 0, 0
   index: -1
 autum/Rock6_5_no_shadow
   rotate: false
-  xy: 989, 384
+  xy: 834, 76
   size: 16, 16
   orig: 16, 16
   offset: 0, 0
   index: -1
 summer/Rock6_5_no_shadow
   rotate: false
-  xy: 989, 384
+  xy: 834, 76
   size: 16, 16
   orig: 16, 16
   offset: 0, 0
@@ -538,7 +510,7 @@ desert/Sand_ruins2
   index: -1
 desert/Sand_ruins4
   rotate: false
-  xy: 616, 133
+  xy: 654, 13
   size: 48, 48
   orig: 48, 48
   offset: 0, 0
@@ -557,13 +529,6 @@ desert/Yellow_ruins2
   orig: 80, 80
   offset: 0, 0
   index: -1
-desert/Yellow_ruins4
-  rotate: false
-  xy: 654, 13
-  size: 48, 48
-  orig: 48, 48
-  offset: 0, 0
-  index: -1
 desert/branch
   rotate: false
   xy: 117, 5
@@ -573,21 +538,7 @@ desert/branch
   index: 1
 desert/cactus
   rotate: false
-  xy: 528, 665
-  size: 15, 16
-  orig: 15, 16
-  offset: 0, 0
-  index: -1
-desert/cactus
-  rotate: false
-  xy: 528, 646
-  size: 15, 15
-  orig: 15, 15
-  offset: 0, 0
-  index: 2
-desert/cactus
-  rotate: false
-  xy: 578, 420
+  xy: 632, 620
   size: 14, 16
   orig: 14, 16
   offset: 0, 0
@@ -627,20 +578,6 @@ desert/desert_rock
   orig: 31, 15
   offset: 0, 0
   index: 5
-desert/desert_rock
-  rotate: false
-  xy: 635, 306
-  size: 15, 15
-  orig: 15, 15
-  offset: 0, 0
-  index: 6
-desert/desert_rock
-  rotate: false
-  xy: 834, 81
-  size: 16, 15
-  orig: 16, 15
-  offset: 0, 0
-  index: 1
 desert/grass
   rotate: false
   xy: 104, 4
@@ -671,7 +608,7 @@ desert/grass
   index: 2
 desert/grass
   rotate: false
-  xy: 778, 268
+  xy: 978, 4
   size: 32, 28
   orig: 32, 28
   offset: 0, 0
@@ -699,7 +636,7 @@ interior/book
   index: 2
 interior/book
   rotate: false
-  xy: 633, 608
+  xy: 599, 513
   size: 13, 9
   orig: 13, 9
   offset: 0, 0
@@ -720,7 +657,7 @@ interior/chair
   index: 3
 interior/chair
   rotate: false
-  xy: 528, 685
+  xy: 528, 650
   size: 15, 31
   orig: 15, 31
   offset: 0, 0
@@ -830,23 +767,30 @@ interior/window
   orig: 18, 18
   offset: 0, 0
   index: 1
+npc/Woman_NPC
+  rotate: false
+  xy: 528, 685
+  size: 15, 31
+  orig: 15, 31
+  offset: 0, 0
+  index: -1
 player/idle_down
   rotate: false
-  xy: 969, 112
+  xy: 888, 168
   size: 48, 64
   orig: 48, 64
   offset: 0, 0
   index: 0
 player/idle_down
   rotate: false
-  xy: 966, 8
+  xy: 888, 100
   size: 48, 64
   orig: 48, 64
   offset: 0, 0
   index: 1
 player/idle_down
   rotate: false
-  xy: 762, 80
+  xy: 830, 96
   size: 48, 64
   orig: 48, 64
   offset: 0, 0
@@ -909,7 +853,7 @@ summer/Bush_blue_flowers1
   index: -1
 summer/Bush_blue_flowers2
   rotate: false
-  xy: 742, 374
+  xy: 742, 338
   size: 32, 32
   orig: 32, 32
   offset: 0, 0
@@ -930,7 +874,7 @@ summer/Bush_orange_flowers1
   index: -1
 summer/Bush_orange_flowers2
   rotate: false
-  xy: 742, 338
+  xy: 742, 302
   size: 32, 32
   orig: 32, 32
   offset: 0, 0
@@ -951,7 +895,7 @@ summer/Bush_pink_flowers1
   index: -1
 summer/Bush_pink_flowers2
   rotate: false
-  xy: 742, 302
+  xy: 742, 266
   size: 32, 32
   orig: 32, 32
   offset: 0, 0
@@ -972,7 +916,7 @@ summer/Bush_red_flowers1
   index: -1
 summer/Bush_red_flowers2
   rotate: false
-  xy: 742, 266
+  xy: 626, 237
   size: 32, 32
   orig: 32, 32
   offset: 0, 0
@@ -993,14 +937,14 @@ summer/Bush_simple1
   index: 3
 summer/Bush_simple1
   rotate: false
-  xy: 616, 185
+  xy: 626, 201
   size: 32, 32
   orig: 32, 32
   offset: 0, 0
   index: 1
 summer/Bush_simple1
   rotate: false
-  xy: 616, 228
+  xy: 735, 230
   size: 32, 32
   orig: 32, 32
   offset: 0, 0
@@ -1014,14 +958,14 @@ summer/Bush_simple2
   index: 3
 summer/Bush_simple2
   rotate: false
-  xy: 984, 288
+  xy: 771, 230
   size: 32, 32
   orig: 32, 32
   offset: 0, 0
   index: 1
 summer/Bush_simple2
   rotate: false
-  xy: 984, 252
+  xy: 916, 308
   size: 32, 32
   orig: 32, 32
   offset: 0, 0
@@ -1038,13 +982,6 @@ summer/Christmas_tree2
   xy: 785, 504
   size: 64, 64
   orig: 64, 64
-  offset: 0, 0
-  index: -1
-summer/Christmas_tree3
-  rotate: false
-  xy: 706, 29
-  size: 32, 32
-  orig: 32, 32
   offset: 0, 0
   index: -1
 summer/Fern1
@@ -1112,7 +1049,7 @@ summer/Fruit_tree2
   index: -1
 summer/Fruit_tree3
   rotate: false
-  xy: 674, 352
+  xy: 547, 309
   size: 64, 64
   orig: 64, 64
   offset: 0, 0
@@ -1126,7 +1063,7 @@ summer/Moss_tree1
   index: -1
 summer/Moss_tree2
   rotate: false
-  xy: 547, 300
+  xy: 674, 352
   size: 64, 64
   orig: 64, 64
   offset: 0, 0
@@ -1175,21 +1112,21 @@ summer/Rock1
   index: 2
 summer/Rock1_1_no_shadow
   rotate: false
-  xy: 674, 216
+  xy: 667, 216
   size: 64, 64
   orig: 64, 64
   offset: 0, 0
   index: -1
 autum/Rock1_1_no_shadow
   rotate: false
-  xy: 674, 216
+  xy: 667, 216
   size: 64, 64
   orig: 64, 64
   offset: 0, 0
   index: -1
 summer/Rock1_2_no_shadow
   rotate: false
-  xy: 626, 65
+  xy: 616, 133
   size: 64, 64
   orig: 64, 64
   offset: 0, 0
@@ -1203,14 +1140,14 @@ summer/Rock1_5_no_shadow
   index: -1
 summer/Rock1_grass_shadow1
   rotate: false
-  xy: 668, 133
+  xy: 626, 65
   size: 64, 64
   orig: 64, 64
   offset: 0, 0
   index: -1
 summer/Rock1_grass_shadow2
   rotate: false
-  xy: 694, 65
+  xy: 684, 148
   size: 64, 64
   orig: 64, 64
   offset: 0, 0
@@ -1224,126 +1161,126 @@ summer/Rock1_grass_shadow5
   index: -1
 summer/Rock1_grass_shadow_dark1
   rotate: false
-  xy: 736, 148
+  xy: 694, 80
   size: 64, 64
   orig: 64, 64
   offset: 0, 0
   index: -1
 summer/Rock1_grass_shadow_dark2
   rotate: false
-  xy: 916, 276
+  xy: 706, 12
   size: 64, 64
   orig: 64, 64
   offset: 0, 0
   index: -1
 summer/Rock1_grass_shadow_dark5
   rotate: false
-  xy: 596, 368
+  xy: 654, 381
   size: 16, 16
   orig: 16, 16
   offset: 0, 0
   index: -1
 summer/Rock2
   rotate: false
-  xy: 654, 381
+  xy: 654, 361
   size: 16, 16
   orig: 16, 16
   offset: 0, 0
   index: 5
 summer/Rock2
   rotate: false
-  xy: 846, 236
+  xy: 752, 162
   size: 64, 64
   orig: 64, 64
   offset: 0, 0
   index: 1
 summer/Rock2
   rotate: false
-  xy: 914, 208
+  xy: 807, 232
   size: 64, 64
   orig: 64, 64
   offset: 0, 0
   index: 2
 summer/Rock2_1_no_shadow
   rotate: false
-  xy: 833, 168
+  xy: 762, 94
   size: 64, 64
   orig: 64, 64
   offset: 0, 0
   index: -1
 autum/Rock2_1_no_shadow
   rotate: false
-  xy: 833, 168
+  xy: 762, 94
   size: 64, 64
   orig: 64, 64
   offset: 0, 0
   index: -1
 summer/Rock2_2_no_shadow
   rotate: false
-  xy: 901, 140
+  xy: 820, 164
   size: 64, 64
   orig: 64, 64
   offset: 0, 0
   index: -1
 autum/Rock2_2_no_shadow
   rotate: false
-  xy: 901, 140
+  xy: 820, 164
   size: 64, 64
   orig: 64, 64
   offset: 0, 0
   index: -1
 summer/Rock2_5_no_shadow
   rotate: false
-  xy: 654, 361
+  xy: 654, 341
   size: 16, 16
   orig: 16, 16
   offset: 0, 0
   index: -1
 autum/Rock2_5_no_shadow
   rotate: false
-  xy: 654, 361
+  xy: 654, 341
   size: 16, 16
   orig: 16, 16
   offset: 0, 0
   index: -1
 summer/Rock2_grass_shadow1
   rotate: false
-  xy: 824, 100
+  xy: 875, 236
   size: 64, 64
   orig: 64, 64
   offset: 0, 0
   index: -1
 summer/Rock2_grass_shadow2
   rotate: false
-  xy: 892, 72
+  xy: 952, 276
   size: 64, 64
   orig: 64, 64
   offset: 0, 0
   index: -1
 summer/Rock2_grass_shadow5
   rotate: false
-  xy: 654, 341
+  xy: 583, 289
   size: 16, 16
   orig: 16, 16
   offset: 0, 0
   index: -1
 summer/Rock2_grass_shadow_dark1
   rotate: false
-  xy: 762, 4
+  xy: 943, 208
   size: 64, 64
   orig: 64, 64
   offset: 0, 0
   index: -1
 summer/Rock2_grass_shadow_dark2
   rotate: false
-  xy: 830, 4
+  xy: 940, 140
   size: 64, 64
   orig: 64, 64
   offset: 0, 0
   index: -1
 summer/Rock2_grass_shadow_dark5
   rotate: false
-  xy: 615, 305
+  xy: 583, 269
   size: 16, 16
   orig: 16, 16
   offset: 0, 0
@@ -1357,11 +1294,32 @@ summer/Rock3
   index: 5
 summer/Rock3
   rotate: false
-  xy: 898, 4
+  xy: 940, 72
   size: 64, 64
   orig: 64, 64
   offset: 0, 0
   index: 1
+summer/Rock3
+  rotate: false
+  xy: 774, 4
+  size: 64, 64
+  orig: 64, 64
+  offset: 0, 0
+  index: 2
+summer/Rock3_1_no_shadow
+  rotate: false
+  xy: 842, 4
+  size: 64, 64
+  orig: 64, 64
+  offset: 0, 0
+  index: -1
+summer/Rock3_2_no_shadow
+  rotate: false
+  xy: 910, 4
+  size: 64, 64
+  orig: 64, 64
+  offset: 0, 0
+  index: -1
 summer/Rock3_5_no_shadow
   rotate: false
   xy: 990, 480
@@ -1378,140 +1336,77 @@ summer/Rock4
   index: 5
 summer/Rock4_5_no_shadow
   rotate: false
-  xy: 654, 321
+  xy: 989, 404
   size: 16, 16
   orig: 16, 16
   offset: 0, 0
   index: -1
 summer/Rock4_grass_shadow5
   rotate: false
-  xy: 654, 301
+  xy: 778, 280
   size: 16, 16
   orig: 16, 16
   offset: 0, 0
   index: -1
 summer/Rock4_grass_shadow_dark5
   rotate: false
-  xy: 654, 281
+  xy: 989, 384
   size: 16, 16
   orig: 16, 16
   offset: 0, 0
   index: -1
 summer/Rock5
   rotate: false
-  xy: 989, 404
+  xy: 989, 364
   size: 16, 16
   orig: 16, 16
   offset: 0, 0
   index: 5
 summer/Rock5_5_no_shadow
   rotate: false
-  xy: 654, 261
+  xy: 989, 344
   size: 16, 16
   orig: 16, 16
   offset: 0, 0
   index: -1
 summer/Rock5_grass_shadow5
   rotate: false
-  xy: 654, 241
+  xy: 774, 74
   size: 16, 16
   orig: 16, 16
   offset: 0, 0
   index: -1
 summer/Rock5_grass_shadow_dark5
   rotate: false
-  xy: 654, 221
+  xy: 794, 74
   size: 16, 16
   orig: 16, 16
   offset: 0, 0
   index: -1
 summer/Rock6_grass_shadow5
   rotate: false
-  xy: 989, 364
+  xy: 854, 76
   size: 16, 16
   orig: 16, 16
   offset: 0, 0
   index: -1
 summer/Rock6_grass_shadow_dark5
   rotate: false
-  xy: 989, 344
+  xy: 874, 76
   size: 16, 16
   orig: 16, 16
   offset: 0, 0
   index: -1
 summer/Rock7
   rotate: false
-  xy: 989, 324
+  xy: 894, 80
   size: 16, 16
   orig: 16, 16
   offset: 0, 0
   index: 5
 summer/Rock7_5_no_shadow
   rotate: false
-  xy: 793, 216
-  size: 16, 16
-  orig: 16, 16
-  offset: 0, 0
-  index: -1
-summer/Rock7_water_shadow5
-  rotate: false
-  xy: 793, 248
-  size: 16, 16
-  orig: 16, 16
-  offset: 0, 0
-  index: -1
-summer/Rock7_water_shadow_dark5
-  rotate: false
-  xy: 813, 248
-  size: 16, 16
-  orig: 16, 16
-  offset: 0, 0
-  index: -1
-summer/Rock8
-  rotate: false
-  xy: 814, 280
-  size: 16, 16
-  orig: 16, 16
-  offset: 0, 0
-  index: 5
-summer/Rock8_5_no_shadow
-  rotate: false
-  xy: 813, 228
-  size: 16, 16
-  orig: 16, 16
-  offset: 0, 0
-  index: -1
-summer/Rock8_ground_shadow5
-  rotate: false
-  xy: 813, 208
-  size: 16, 16
-  orig: 16, 16
-  offset: 0, 0
-  index: -1
-summer/Rock8_ground_shadow_dark5
-  rotate: false
-  xy: 804, 188
-  size: 16, 16
-  orig: 16, 16
-  offset: 0, 0
-  index: -1
-summer/Rokc3_snow_shadow5
-  rotate: false
-  xy: 804, 168
-  size: 16, 16
-  orig: 16, 16
-  offset: 0, 0
-  index: -1
-summer/Rokc3_snow_shadow_dark5
-  rotate: false
-  xy: 804, 148
-  size: 16, 16
-  orig: 16, 16
-  offset: 0, 0
-  index: -1
-summer/Snow_bush3
-  rotate: false
-  xy: 996, 92
+  xy: 914, 80
   size: 16, 16
   orig: 16, 16
   offset: 0, 0
@@ -1595,7 +1490,7 @@ summer/bush
   index: 3
 summer/bush
   rotate: false
-  xy: 742, 220
+  xy: 581, 594
   size: 47, 42
   orig: 47, 42
   offset: 0, 0
@@ -1609,14 +1504,14 @@ summer/flooawer
   index: 3
 summer/floower
   rotate: false
-  xy: 578, 389
+  xy: 632, 600
   size: 14, 16
   orig: 14, 16
   offset: 0, 0
   index: 1
 summer/flower
   rotate: false
-  xy: 578, 369
+  xy: 578, 420
   size: 14, 16
   orig: 14, 16
   offset: 0, 0
@@ -1707,7 +1602,7 @@ summer/grass
   index: 10
 summer/grass
   rotate: false
-  xy: 635, 292
+  xy: 578, 395
   size: 14, 10
   orig: 14, 10
   offset: 0, 0
@@ -1733,13 +1628,6 @@ summer/mushroom
   orig: 11, 16
   offset: 0, 0
   index: 1
-summer/mushroom
-  rotate: false
-  xy: 633, 621
-  size: 13, 15
-  orig: 13, 15
-  offset: 0, 0
-  index: 2
 summer/oak_tree
   rotate: false
   xy: 368, 32
@@ -1761,13 +1649,6 @@ summer/rock
   orig: 31, 29
   offset: 0, 0
   index: 1
-summer/rock
-  rotate: false
-  xy: 814, 80
-  size: 16, 16
-  orig: 16, 16
-  offset: 0, 0
-  index: 2
 summer/rock_3(1)
   rotate: false
   xy: 786, 850
@@ -1830,1315 +1711,1441 @@ size: 1024, 1024
 format: RGBA8888
 filter: Nearest, Nearest
 repeat: none
+desert/Cactus1
+  rotate: false
+  xy: 980, 980
+  size: 32, 32
+  orig: 32, 32
+  offset: 0, 0
+  index: 2
+summer/Cactus1
+  rotate: false
+  xy: 980, 980
+  size: 32, 32
+  orig: 32, 32
+  offset: 0, 0
+  index: 2
+desert/Cactus2
+  rotate: false
+  xy: 980, 944
+  size: 32, 32
+  orig: 32, 32
+  offset: 0, 0
+  index: 2
+summer/Cactus2
+  rotate: false
+  xy: 980, 944
+  size: 32, 32
+  orig: 32, 32
+  offset: 0, 0
+  index: 2
 desert/Rock6
   rotate: false
-  xy: 724, 940
+  xy: 520, 744
   size: 64, 64
   orig: 64, 64
   offset: 0, 0
   index: 1
 autum/Rock6
   rotate: false
-  xy: 724, 940
+  xy: 520, 744
   size: 64, 64
   orig: 64, 64
   offset: 0, 0
   index: 1
 summer/Rock6
   rotate: false
-  xy: 724, 940
+  xy: 520, 744
   size: 64, 64
   orig: 64, 64
   offset: 0, 0
   index: 1
 desert/Rock6
   rotate: false
-  xy: 4, 152
+  xy: 588, 812
   size: 64, 64
   orig: 64, 64
   offset: 0, 0
   index: 2
 autum/Rock6
   rotate: false
-  xy: 4, 152
+  xy: 588, 812
   size: 64, 64
   orig: 64, 64
   offset: 0, 0
   index: 2
 summer/Rock6
   rotate: false
-  xy: 4, 152
+  xy: 588, 812
   size: 64, 64
   orig: 64, 64
   offset: 0, 0
   index: 2
 desert/Rock6
   rotate: false
-  xy: 468, 248
+  xy: 228, 20
   size: 32, 32
   orig: 32, 32
   offset: 0, 0
   index: 3
 autum/Rock6
   rotate: false
-  xy: 468, 248
+  xy: 228, 20
   size: 32, 32
   orig: 32, 32
   offset: 0, 0
   index: 3
 summer/Rock6
   rotate: false
-  xy: 468, 248
+  xy: 228, 20
   size: 32, 32
   orig: 32, 32
   offset: 0, 0
   index: 3
 desert/Rock6
   rotate: false
-  xy: 504, 284
+  xy: 260, 124
   size: 32, 32
   orig: 32, 32
   offset: 0, 0
   index: 4
 summer/Rock6
   rotate: false
-  xy: 504, 284
+  xy: 260, 124
   size: 32, 32
   orig: 32, 32
   offset: 0, 0
   index: 4
 desert/Rock6_1_no_shadow
   rotate: false
-  xy: 72, 220
+  xy: 656, 880
   size: 64, 64
   orig: 64, 64
   offset: 0, 0
   index: -1
 summer/Rock6_1_no_shadow
   rotate: false
-  xy: 72, 220
+  xy: 656, 880
   size: 64, 64
   orig: 64, 64
   offset: 0, 0
   index: -1
 desert/Rock6_2_no_shadow
   rotate: false
-  xy: 140, 288
+  xy: 724, 948
   size: 64, 64
   orig: 64, 64
   offset: 0, 0
   index: -1
 summer/Rock6_2_no_shadow
   rotate: false
-  xy: 140, 288
+  xy: 724, 948
   size: 64, 64
   orig: 64, 64
   offset: 0, 0
   index: -1
 desert/Rock6_3_no_shadow
   rotate: false
-  xy: 504, 248
+  xy: 296, 124
   size: 32, 32
   orig: 32, 32
   offset: 0, 0
   index: -1
 summer/Rock6_3_no_shadow
   rotate: false
-  xy: 504, 248
+  xy: 296, 124
   size: 32, 32
   orig: 32, 32
   offset: 0, 0
   index: -1
 desert/Rock6_4_no_shadow
   rotate: false
-  xy: 532, 360
+  xy: 264, 88
   size: 32, 32
   orig: 32, 32
   offset: 0, 0
   index: -1
 summer/Rock6_4_no_shadow
   rotate: false
-  xy: 532, 360
+  xy: 264, 88
   size: 32, 32
   orig: 32, 32
   offset: 0, 0
   index: -1
 desert/Rock8_1_no_shadow
   rotate: false
-  xy: 588, 668
+  xy: 276, 364
   size: 64, 64
   orig: 64, 64
   offset: 0, 0
   index: -1
 summer/Rock8_1_no_shadow
   rotate: false
-  xy: 588, 668
+  xy: 276, 364
   size: 64, 64
   orig: 64, 64
   offset: 0, 0
   index: -1
 desert/Rock8_ground_shadow1
   rotate: false
-  xy: 724, 804
+  xy: 520, 608
   size: 64, 64
   orig: 64, 64
   offset: 0, 0
   index: -1
 summer/Rock8_ground_shadow1
   rotate: false
-  xy: 724, 804
+  xy: 520, 608
   size: 64, 64
   orig: 64, 64
   offset: 0, 0
   index: -1
 desert/Rock8_ground_shadow4
   rotate: false
-  xy: 336, 40
+  xy: 540, 240
   size: 32, 32
   orig: 32, 32
   offset: 0, 0
   index: -1
 summer/Rock8_ground_shadow4
   rotate: false
-  xy: 336, 40
+  xy: 540, 240
   size: 32, 32
   orig: 32, 32
   offset: 0, 0
   index: -1
 desert/Rock8_ground_shadow_dark1
   rotate: false
-  xy: 860, 940
+  xy: 656, 744
   size: 64, 64
   orig: 64, 64
   offset: 0, 0
   index: -1
 summer/Rock8_ground_shadow_dark1
   rotate: false
-  xy: 860, 940
+  xy: 656, 744
   size: 64, 64
   orig: 64, 64
   offset: 0, 0
   index: -1
 desert/Sand_ruins3
   rotate: false
-  xy: 344, 356
+  xy: 140, 160
   size: 64, 64
   orig: 64, 64
   offset: 0, 0
   index: -1
 desert/Sand_ruins5
   rotate: false
-  xy: 576, 216
+  xy: 788, 364
   size: 32, 32
   orig: 32, 32
   offset: 0, 0
   index: -1
 desert/Yellow_ruins3
   rotate: false
-  xy: 656, 668
+  xy: 412, 432
   size: 64, 64
   orig: 64, 64
   offset: 0, 0
   index: -1
+desert/Yellow_ruins4
+  rotate: false
+  xy: 532, 420
+  size: 48, 48
+  orig: 48, 48
+  offset: 0, 0
+  index: -1
 desert/Yellow_ruins5
   rotate: false
-  xy: 856, 360
+  xy: 576, 296
   size: 32, 32
   orig: 32, 32
   offset: 0, 0
   index: -1
 desert/branches
   rotate: false
-  xy: 856, 324
+  xy: 612, 332
   size: 32, 32
   orig: 32, 32
   offset: 0, 0
   index: 2
+desert/cactus
+  rotate: false
+  xy: 144, 4
+  size: 15, 16
+  orig: 15, 16
+  offset: 0, 0
+  index: -1
+desert/cactus
+  rotate: false
+  xy: 896, 757
+  size: 15, 15
+  orig: 15, 15
+  offset: 0, 0
+  index: 2
+desert/desert_rock
+  rotate: false
+  xy: 1004, 817
+  size: 16, 15
+  orig: 16, 15
+  offset: 0, 0
+  index: 1
+desert/desert_rock
+  rotate: false
+  xy: 936, 681
+  size: 15, 15
+  orig: 15, 15
+  offset: 0, 0
+  index: 6
 player/idle_down
   rotate: false
-  xy: 724, 736
+  xy: 520, 540
   size: 48, 64
   orig: 48, 64
   offset: 0, 0
   index: 3
 player/idle_down
   rotate: false
-  xy: 792, 804
+  xy: 588, 608
   size: 48, 64
   orig: 48, 64
   offset: 0, 0
   index: 4
 player/idle_down
   rotate: false
-  xy: 860, 872
+  xy: 656, 676
   size: 48, 64
   orig: 48, 64
   offset: 0, 0
   index: 5
 player/idle_left
   rotate: false
-  xy: 928, 940
+  xy: 724, 744
   size: 48, 64
   orig: 48, 64
   offset: 0, 0
   index: 0
 player/idle_left
   rotate: false
-  xy: 72, 16
+  xy: 792, 812
   size: 48, 64
   orig: 48, 64
   offset: 0, 0
   index: 1
 player/idle_left
   rotate: false
-  xy: 140, 84
+  xy: 860, 880
   size: 48, 64
   orig: 48, 64
   offset: 0, 0
   index: 2
 player/idle_left
   rotate: false
-  xy: 208, 152
+  xy: 928, 948
   size: 48, 64
   orig: 48, 64
   offset: 0, 0
   index: 3
 player/idle_left
   rotate: false
-  xy: 276, 220
+  xy: 72, 24
   size: 48, 64
   orig: 48, 64
   offset: 0, 0
   index: 4
 player/idle_left
   rotate: false
-  xy: 344, 288
+  xy: 140, 92
   size: 48, 64
   orig: 48, 64
   offset: 0, 0
   index: 5
 player/idle_right
   rotate: false
-  xy: 412, 356
+  xy: 208, 160
   size: 48, 64
   orig: 48, 64
   offset: 0, 0
   index: 0
 player/idle_right
   rotate: false
-  xy: 588, 532
+  xy: 276, 228
   size: 48, 64
   orig: 48, 64
   offset: 0, 0
   index: 1
 player/idle_right
   rotate: false
-  xy: 656, 600
+  xy: 344, 296
   size: 48, 64
   orig: 48, 64
   offset: 0, 0
   index: 2
 player/idle_right
   rotate: false
-  xy: 724, 668
+  xy: 412, 364
   size: 48, 64
   orig: 48, 64
   offset: 0, 0
   index: 3
 player/idle_right
   rotate: false
-  xy: 776, 736
+  xy: 572, 540
   size: 48, 64
   orig: 48, 64
   offset: 0, 0
   index: 4
 player/idle_right
   rotate: false
-  xy: 844, 804
+  xy: 640, 608
   size: 48, 64
   orig: 48, 64
   offset: 0, 0
   index: 5
 player/idle_up
   rotate: false
-  xy: 912, 872
+  xy: 708, 676
   size: 48, 64
   orig: 48, 64
   offset: 0, 0
   index: 0
 player/idle_up
   rotate: false
-  xy: 124, 16
+  xy: 776, 744
   size: 48, 64
   orig: 48, 64
   offset: 0, 0
   index: 1
 player/idle_up
   rotate: false
-  xy: 192, 84
+  xy: 844, 812
   size: 48, 64
   orig: 48, 64
   offset: 0, 0
   index: 2
 player/idle_up
   rotate: false
-  xy: 260, 152
+  xy: 912, 880
   size: 48, 64
   orig: 48, 64
   offset: 0, 0
   index: 3
 player/idle_up
   rotate: false
-  xy: 328, 220
+  xy: 124, 24
   size: 48, 64
   orig: 48, 64
   offset: 0, 0
   index: 4
 player/idle_up
   rotate: false
-  xy: 396, 288
+  xy: 192, 92
   size: 48, 64
   orig: 48, 64
   offset: 0, 0
   index: 5
 player/walk_down
   rotate: false
-  xy: 640, 532
+  xy: 260, 160
   size: 48, 64
   orig: 48, 64
   offset: 0, 0
   index: 0
 player/walk_down
   rotate: false
-  xy: 708, 600
+  xy: 328, 228
   size: 48, 64
   orig: 48, 64
   offset: 0, 0
   index: 1
 player/walk_down
   rotate: false
-  xy: 776, 668
+  xy: 396, 296
   size: 48, 64
   orig: 48, 64
   offset: 0, 0
   index: 2
 player/walk_down
   rotate: false
-  xy: 480, 424
+  xy: 480, 432
   size: 48, 64
   orig: 48, 64
   offset: 0, 0
   index: 3
 player/walk_down
   rotate: false
-  xy: 464, 356
+  xy: 464, 364
   size: 48, 64
   orig: 48, 64
   offset: 0, 0
   index: 4
 player/walk_down
   rotate: false
-  xy: 532, 464
+  xy: 532, 472
   size: 48, 64
   orig: 48, 64
   offset: 0, 0
   index: 5
 player/walk_left
   rotate: false
-  xy: 584, 464
+  xy: 584, 472
   size: 48, 64
   orig: 48, 64
   offset: 0, 0
   index: 0
 player/walk_left
   rotate: false
-  xy: 636, 464
+  xy: 584, 404
   size: 48, 64
   orig: 48, 64
   offset: 0, 0
   index: 1
 player/walk_left
   rotate: false
-  xy: 532, 396
+  xy: 636, 472
   size: 48, 64
   orig: 48, 64
   offset: 0, 0
   index: 2
 player/walk_left
   rotate: false
-  xy: 584, 396
+  xy: 636, 404
   size: 48, 64
   orig: 48, 64
   offset: 0, 0
   index: 3
 player/walk_left
   rotate: false
-  xy: 636, 396
+  xy: 640, 540
   size: 48, 64
   orig: 48, 64
   offset: 0, 0
   index: 4
 player/walk_left
   rotate: false
-  xy: 688, 464
+  xy: 688, 472
   size: 48, 64
   orig: 48, 64
   offset: 0, 0
   index: 5
 player/walk_right
   rotate: false
-  xy: 688, 396
+  xy: 688, 404
   size: 48, 64
   orig: 48, 64
   offset: 0, 0
   index: 0
 player/walk_right
   rotate: false
-  xy: 708, 532
+  xy: 692, 540
   size: 48, 64
   orig: 48, 64
   offset: 0, 0
   index: 1
 player/walk_right
   rotate: false
-  xy: 740, 464
+  xy: 708, 608
   size: 48, 64
   orig: 48, 64
   offset: 0, 0
   index: 2
 player/walk_right
   rotate: false
-  xy: 740, 396
+  xy: 744, 540
   size: 48, 64
   orig: 48, 64
   offset: 0, 0
   index: 3
 player/walk_right
   rotate: false
-  xy: 760, 532
+  xy: 740, 472
   size: 48, 64
   orig: 48, 64
   offset: 0, 0
   index: 4
 player/walk_right
   rotate: false
-  xy: 776, 600
+  xy: 740, 404
   size: 48, 64
   orig: 48, 64
   offset: 0, 0
   index: 5
 player/walk_up
   rotate: false
-  xy: 792, 464
+  xy: 760, 608
   size: 48, 64
   orig: 48, 64
   offset: 0, 0
   index: 0
 player/walk_up
   rotate: false
-  xy: 792, 396
+  xy: 776, 676
   size: 48, 64
   orig: 48, 64
   offset: 0, 0
   index: 1
 player/walk_up
   rotate: false
-  xy: 812, 532
+  xy: 796, 540
   size: 48, 64
   orig: 48, 64
   offset: 0, 0
   index: 2
 player/walk_up
   rotate: false
-  xy: 828, 668
+  xy: 812, 608
   size: 48, 64
   orig: 48, 64
   offset: 0, 0
   index: 3
 player/walk_up
   rotate: false
-  xy: 828, 600
+  xy: 828, 676
   size: 48, 64
   orig: 48, 64
   offset: 0, 0
   index: 4
 player/walk_up
   rotate: false
-  xy: 844, 736
+  xy: 844, 744
   size: 48, 64
   orig: 48, 64
   offset: 0, 0
   index: 5
+summer/Christmas_tree3
+  rotate: false
+  xy: 848, 572
+  size: 32, 32
+  orig: 32, 32
+  offset: 0, 0
+  index: -1
 summer/Fern1
   rotate: false
-  xy: 980, 972
+  xy: 848, 536
   size: 32, 32
   orig: 32, 32
   offset: 0, 0
   index: 2
 summer/Fern2
   rotate: false
-  xy: 980, 936
+  xy: 864, 640
   size: 32, 32
   orig: 32, 32
   offset: 0, 0
   index: 2
 summer/Rock1
   rotate: false
-  xy: 864, 564
+  xy: 880, 708
   size: 32, 32
   orig: 32, 32
   offset: 0, 0
   index: 3
 summer/Rock1
   rotate: false
-  xy: 864, 528
+  xy: 884, 604
   size: 32, 32
   orig: 32, 32
   offset: 0, 0
   index: 4
 autum/Rock1
   rotate: false
-  xy: 864, 528
+  xy: 884, 604
   size: 32, 32
   orig: 32, 32
   offset: 0, 0
   index: 4
 summer/Rock1_3_no_shadow
   rotate: false
-  xy: 880, 700
+  xy: 884, 568
   size: 32, 32
   orig: 32, 32
   offset: 0, 0
   index: -1
 autum/Rock1_3_no_shadow
   rotate: false
-  xy: 880, 700
+  xy: 884, 568
   size: 32, 32
   orig: 32, 32
   offset: 0, 0
   index: -1
 summer/Rock1_4_no_shadow
   rotate: false
-  xy: 880, 664
+  xy: 884, 532
   size: 32, 32
   orig: 32, 32
   offset: 0, 0
   index: -1
 summer/Rock1_grass_shadow3
   rotate: false
-  xy: 880, 628
+  xy: 900, 672
   size: 32, 32
   orig: 32, 32
   offset: 0, 0
   index: -1
 summer/Rock1_grass_shadow4
   rotate: false
-  xy: 192, 48
+  xy: 920, 636
   size: 32, 32
   orig: 32, 32
   offset: 0, 0
   index: -1
 summer/Rock1_grass_shadow_dark3
   rotate: false
-  xy: 228, 48
+  xy: 920, 600
   size: 32, 32
   orig: 32, 32
   offset: 0, 0
   index: -1
 summer/Rock1_grass_shadow_dark4
   rotate: false
-  xy: 328, 184
+  xy: 920, 564
   size: 32, 32
   orig: 32, 32
   offset: 0, 0
   index: -1
 summer/Rock2
   rotate: false
-  xy: 364, 184
+  xy: 920, 528
   size: 32, 32
   orig: 32, 32
   offset: 0, 0
   index: 3
 autum/Rock2
   rotate: false
-  xy: 364, 184
+  xy: 920, 528
   size: 32, 32
   orig: 32, 32
   offset: 0, 0
   index: 3
 summer/Rock2
   rotate: false
-  xy: 464, 320
+  xy: 192, 56
   size: 32, 32
   orig: 32, 32
   offset: 0, 0
   index: 4
 autum/Rock2
   rotate: false
-  xy: 464, 320
+  xy: 192, 56
   size: 32, 32
   orig: 32, 32
   offset: 0, 0
   index: 4
 summer/Rock2_3_no_shadow
   rotate: false
-  xy: 500, 320
+  xy: 228, 56
   size: 32, 32
   orig: 32, 32
   offset: 0, 0
   index: -1
 summer/Rock2_4_no_shadow
   rotate: false
-  xy: 980, 900
+  xy: 328, 192
   size: 32, 32
   orig: 32, 32
   offset: 0, 0
   index: -1
 summer/Rock2_grass_shadow3
   rotate: false
-  xy: 864, 492
+  xy: 364, 192
   size: 32, 32
   orig: 32, 32
   offset: 0, 0
   index: -1
 summer/Rock2_grass_shadow4
   rotate: false
-  xy: 912, 836
+  xy: 464, 328
   size: 32, 32
   orig: 32, 32
   offset: 0, 0
   index: -1
 summer/Rock2_grass_shadow_dark3
   rotate: false
-  xy: 948, 836
+  xy: 500, 328
   size: 32, 32
   orig: 32, 32
   offset: 0, 0
   index: -1
 summer/Rock2_grass_shadow_dark4
   rotate: false
-  xy: 984, 864
+  xy: 980, 908
   size: 32, 32
   orig: 32, 32
   offset: 0, 0
   index: -1
 summer/Rock3
   rotate: false
-  xy: 4, 424
-  size: 64, 64
-  orig: 64, 64
-  offset: 0, 0
-  index: 2
-summer/Rock3
-  rotate: false
-  xy: 984, 828
+  xy: 792, 436
   size: 32, 32
   orig: 32, 32
   offset: 0, 0
   index: 3
 summer/Rock3
   rotate: false
-  xy: 896, 768
+  xy: 792, 400
   size: 32, 32
   orig: 32, 32
   offset: 0, 0
   index: 4
-summer/Rock3_1_no_shadow
-  rotate: false
-  xy: 520, 940
-  size: 64, 64
-  orig: 64, 64
-  offset: 0, 0
-  index: -1
-summer/Rock3_2_no_shadow
-  rotate: false
-  xy: 4, 356
-  size: 64, 64
-  orig: 64, 64
-  offset: 0, 0
-  index: -1
 summer/Rock3_3_no_shadow
   rotate: false
-  xy: 932, 800
+  xy: 912, 844
   size: 32, 32
   orig: 32, 32
   offset: 0, 0
   index: -1
 summer/Rock3_4_no_shadow
   rotate: false
-  xy: 932, 764
+  xy: 948, 844
   size: 32, 32
   orig: 32, 32
   offset: 0, 0
   index: -1
 summer/Rock4
   rotate: false
-  xy: 72, 424
+  xy: 4, 432
   size: 64, 64
   orig: 64, 64
   offset: 0, 0
   index: 1
 summer/Rock4
   rotate: false
-  xy: 520, 872
+  xy: 520, 948
   size: 64, 64
   orig: 64, 64
   offset: 0, 0
   index: 2
 summer/Rock4
   rotate: false
-  xy: 968, 792
+  xy: 984, 872
   size: 32, 32
   orig: 32, 32
   offset: 0, 0
   index: 3
 summer/Rock4
   rotate: false
-  xy: 192, 12
+  xy: 984, 836
   size: 32, 32
   orig: 32, 32
   offset: 0, 0
   index: 4
 summer/Rock4_1_no_shadow
   rotate: false
-  xy: 588, 940
+  xy: 4, 364
   size: 64, 64
   orig: 64, 64
   offset: 0, 0
   index: -1
 summer/Rock4_2_no_shadow
   rotate: false
-  xy: 4, 288
+  xy: 72, 432
   size: 64, 64
   orig: 64, 64
   offset: 0, 0
   index: -1
 summer/Rock4_3_no_shadow
   rotate: false
-  xy: 228, 12
+  xy: 896, 776
   size: 32, 32
   orig: 32, 32
   offset: 0, 0
   index: -1
 summer/Rock4_4_no_shadow
   rotate: false
-  xy: 260, 116
+  xy: 932, 808
   size: 32, 32
   orig: 32, 32
   offset: 0, 0
   index: -1
 summer/Rock4_grass_shadow1
   rotate: false
-  xy: 72, 356
+  xy: 520, 880
   size: 64, 64
   orig: 64, 64
   offset: 0, 0
   index: -1
 summer/Rock4_grass_shadow2
   rotate: false
-  xy: 140, 424
+  xy: 588, 948
   size: 64, 64
   orig: 64, 64
   offset: 0, 0
   index: -1
 summer/Rock4_grass_shadow3
   rotate: false
-  xy: 296, 116
+  xy: 932, 772
   size: 32, 32
   orig: 32, 32
   offset: 0, 0
   index: -1
 summer/Rock4_grass_shadow4
   rotate: false
-  xy: 264, 80
+  xy: 968, 800
   size: 32, 32
   orig: 32, 32
   offset: 0, 0
   index: -1
 summer/Rock4_grass_shadow_dark1
   rotate: false
-  xy: 520, 804
+  xy: 4, 296
   size: 64, 64
   orig: 64, 64
   offset: 0, 0
   index: -1
 summer/Rock4_grass_shadow_dark2
   rotate: false
-  xy: 588, 872
+  xy: 72, 364
   size: 64, 64
   orig: 64, 64
   offset: 0, 0
   index: -1
 summer/Rock4_grass_shadow_dark3
   rotate: false
-  xy: 264, 44
+  xy: 932, 736
   size: 32, 32
   orig: 32, 32
   offset: 0, 0
   index: -1
 summer/Rock4_grass_shadow_dark4
   rotate: false
-  xy: 264, 8
+  xy: 936, 700
   size: 32, 32
   orig: 32, 32
   offset: 0, 0
   index: -1
 summer/Rock5
   rotate: false
-  xy: 656, 940
+  xy: 140, 432
   size: 64, 64
   orig: 64, 64
   offset: 0, 0
   index: 1
 summer/Rock5
   rotate: false
-  xy: 4, 220
+  xy: 520, 812
   size: 64, 64
   orig: 64, 64
   offset: 0, 0
   index: 2
 summer/Rock5
   rotate: false
-  xy: 332, 148
+  xy: 968, 736
   size: 32, 32
   orig: 32, 32
   offset: 0, 0
   index: 3
 summer/Rock5
   rotate: false
-  xy: 332, 112
+  xy: 972, 700
   size: 32, 32
   orig: 32, 32
   offset: 0, 0
   index: 4
 summer/Rock5_1_no_shadow
   rotate: false
-  xy: 72, 288
+  xy: 588, 880
   size: 64, 64
   orig: 64, 64
   offset: 0, 0
   index: -1
 summer/Rock5_2_no_shadow
   rotate: false
-  xy: 140, 356
+  xy: 656, 948
   size: 64, 64
   orig: 64, 64
   offset: 0, 0
   index: -1
 summer/Rock5_3_no_shadow
   rotate: false
-  xy: 368, 148
+  xy: 956, 664
   size: 32, 32
   orig: 32, 32
   offset: 0, 0
   index: -1
 summer/Rock5_4_no_shadow
   rotate: false
-  xy: 368, 112
+  xy: 956, 628
   size: 32, 32
   orig: 32, 32
   offset: 0, 0
   index: -1
 summer/Rock5_grass_shadow1
   rotate: false
-  xy: 208, 424
+  xy: 4, 228
   size: 64, 64
   orig: 64, 64
   offset: 0, 0
   index: -1
 summer/Rock5_grass_shadow2
   rotate: false
-  xy: 520, 736
+  xy: 72, 296
   size: 64, 64
   orig: 64, 64
   offset: 0, 0
   index: -1
 summer/Rock5_grass_shadow3
   rotate: false
-  xy: 396, 252
+  xy: 956, 592
   size: 32, 32
   orig: 32, 32
   offset: 0, 0
   index: -1
 summer/Rock5_grass_shadow4
   rotate: false
-  xy: 432, 252
+  xy: 956, 556
   size: 32, 32
   orig: 32, 32
   offset: 0, 0
   index: -1
 summer/Rock5_grass_shadow_dark1
   rotate: false
-  xy: 588, 804
+  xy: 140, 364
   size: 64, 64
   orig: 64, 64
   offset: 0, 0
   index: -1
 summer/Rock5_grass_shadow_dark2
   rotate: false
-  xy: 656, 872
+  xy: 208, 432
   size: 64, 64
   orig: 64, 64
   offset: 0, 0
   index: -1
 summer/Rock5_grass_shadow_dark3
   rotate: false
-  xy: 400, 216
+  xy: 956, 520
   size: 32, 32
   orig: 32, 32
   offset: 0, 0
   index: -1
 summer/Rock5_grass_shadow_dark4
   rotate: false
-  xy: 468, 284
+  xy: 192, 20
   size: 32, 32
   orig: 32, 32
   offset: 0, 0
   index: -1
 summer/Rock6_grass_shadow1
   rotate: false
-  xy: 208, 356
+  xy: 4, 160
   size: 64, 64
   orig: 64, 64
   offset: 0, 0
   index: -1
 summer/Rock6_grass_shadow2
   rotate: false
-  xy: 276, 424
+  xy: 72, 228
   size: 64, 64
   orig: 64, 64
   offset: 0, 0
   index: -1
 summer/Rock6_grass_shadow3
   rotate: false
-  xy: 568, 360
+  xy: 264, 52
   size: 32, 32
   orig: 32, 32
   offset: 0, 0
   index: -1
 summer/Rock6_grass_shadow4
   rotate: false
-  xy: 604, 360
+  xy: 264, 16
   size: 32, 32
   orig: 32, 32
   offset: 0, 0
   index: -1
 summer/Rock6_grass_shadow_dark1
   rotate: false
-  xy: 520, 668
+  xy: 140, 296
   size: 64, 64
   orig: 64, 64
   offset: 0, 0
   index: -1
 summer/Rock6_grass_shadow_dark2
   rotate: false
-  xy: 588, 736
+  xy: 208, 364
   size: 64, 64
   orig: 64, 64
   offset: 0, 0
   index: -1
 summer/Rock6_grass_shadow_dark3
   rotate: false
-  xy: 640, 360
+  xy: 332, 156
   size: 32, 32
   orig: 32, 32
   offset: 0, 0
   index: -1
 summer/Rock6_grass_shadow_dark4
   rotate: false
-  xy: 676, 360
+  xy: 332, 120
   size: 32, 32
   orig: 32, 32
   offset: 0, 0
   index: -1
 summer/Rock7
   rotate: false
-  xy: 656, 804
+  xy: 276, 432
   size: 64, 64
   orig: 64, 64
   offset: 0, 0
   index: 1
 summer/Rock7
   rotate: false
-  xy: 724, 872
+  xy: 520, 676
   size: 64, 64
   orig: 64, 64
   offset: 0, 0
   index: 2
 summer/Rock7
   rotate: false
-  xy: 712, 360
+  xy: 368, 156
   size: 32, 32
   orig: 32, 32
   offset: 0, 0
   index: 3
 summer/Rock7
   rotate: false
-  xy: 748, 360
+  xy: 368, 120
   size: 32, 32
   orig: 32, 32
   offset: 0, 0
   index: 4
 summer/Rock7_1_no_shadow
   rotate: false
-  xy: 792, 940
+  xy: 588, 744
   size: 64, 64
   orig: 64, 64
   offset: 0, 0
   index: -1
 summer/Rock7_2_no_shadow
   rotate: false
-  xy: 4, 84
+  xy: 656, 812
   size: 64, 64
   orig: 64, 64
   offset: 0, 0
   index: -1
 summer/Rock7_3_no_shadow
   rotate: false
-  xy: 784, 360
+  xy: 396, 260
   size: 32, 32
   orig: 32, 32
   offset: 0, 0
   index: -1
 summer/Rock7_4_no_shadow
   rotate: false
-  xy: 536, 324
+  xy: 432, 260
   size: 32, 32
   orig: 32, 32
   offset: 0, 0
   index: -1
 summer/Rock7_water_shadow1
   rotate: false
-  xy: 72, 152
+  xy: 724, 880
   size: 64, 64
   orig: 64, 64
   offset: 0, 0
   index: -1
 summer/Rock7_water_shadow2
   rotate: false
-  xy: 140, 220
+  xy: 792, 948
   size: 64, 64
   orig: 64, 64
   offset: 0, 0
   index: -1
 summer/Rock7_water_shadow3
   rotate: false
-  xy: 540, 288
+  xy: 400, 224
   size: 32, 32
   orig: 32, 32
   offset: 0, 0
   index: -1
 summer/Rock7_water_shadow4
   rotate: false
-  xy: 540, 252
+  xy: 468, 292
   size: 32, 32
   orig: 32, 32
   offset: 0, 0
   index: -1
+summer/Rock7_water_shadow5
+  rotate: false
+  xy: 4, 4
+  size: 16, 16
+  orig: 16, 16
+  offset: 0, 0
+  index: -1
 summer/Rock7_water_shadow_dark1
   rotate: false
-  xy: 208, 288
+  xy: 4, 92
   size: 64, 64
   orig: 64, 64
   offset: 0, 0
   index: -1
 summer/Rock7_water_shadow_dark2
   rotate: false
-  xy: 276, 356
+  xy: 72, 160
   size: 64, 64
   orig: 64, 64
   offset: 0, 0
   index: -1
 summer/Rock7_water_shadow_dark3
   rotate: false
-  xy: 820, 360
+  xy: 468, 256
   size: 32, 32
   orig: 32, 32
   offset: 0, 0
   index: -1
 summer/Rock7_water_shadow_dark4
   rotate: false
-  xy: 540, 216
+  xy: 504, 292
   size: 32, 32
   orig: 32, 32
   offset: 0, 0
   index: -1
+summer/Rock7_water_shadow_dark5
+  rotate: false
+  xy: 864, 620
+  size: 16, 16
+  orig: 16, 16
+  offset: 0, 0
+  index: -1
 summer/Rock8
   rotate: false
-  xy: 344, 424
+  xy: 140, 228
   size: 64, 64
   orig: 64, 64
   offset: 0, 0
   index: 1
 summer/Rock8
   rotate: false
-  xy: 520, 600
+  xy: 208, 296
   size: 64, 64
   orig: 64, 64
   offset: 0, 0
   index: 2
 summer/Rock8
   rotate: false
-  xy: 864, 456
+  xy: 880, 688
+  size: 16, 16
+  orig: 16, 16
+  offset: 0, 0
+  index: 5
+summer/Rock8
+  rotate: false
+  xy: 504, 256
   size: 32, 32
   orig: 32, 32
   offset: 0, 0
   index: 3
 summer/Rock8
   rotate: false
-  xy: 900, 492
+  xy: 532, 384
   size: 32, 32
   orig: 32, 32
   offset: 0, 0
   index: 4
 summer/Rock8_2_no_shadow
   rotate: false
-  xy: 656, 736
+  xy: 344, 432
   size: 64, 64
   orig: 64, 64
   offset: 0, 0
   index: -1
 summer/Rock8_3_no_shadow
   rotate: false
-  xy: 300, 44
+  xy: 536, 348
   size: 32, 32
   orig: 32, 32
   offset: 0, 0
   index: -1
 summer/Rock8_4_no_shadow
   rotate: false
-  xy: 300, 8
+  xy: 540, 312
   size: 32, 32
   orig: 32, 32
   offset: 0, 0
   index: -1
+summer/Rock8_5_no_shadow
+  rotate: false
+  xy: 24, 4
+  size: 16, 16
+  orig: 16, 16
+  offset: 0, 0
+  index: -1
 summer/Rock8_ground_shadow2
   rotate: false
-  xy: 792, 872
+  xy: 588, 676
   size: 64, 64
   orig: 64, 64
   offset: 0, 0
   index: -1
 summer/Rock8_ground_shadow3
   rotate: false
-  xy: 336, 76
+  xy: 540, 276
   size: 32, 32
   orig: 32, 32
   offset: 0, 0
   index: -1
+summer/Rock8_ground_shadow5
+  rotate: false
+  xy: 900, 652
+  size: 16, 16
+  orig: 16, 16
+  offset: 0, 0
+  index: -1
 summer/Rock8_ground_shadow_dark2
   rotate: false
-  xy: 4, 16
+  xy: 724, 812
   size: 64, 64
   orig: 64, 64
   offset: 0, 0
   index: -1
 summer/Rock8_ground_shadow_dark3
   rotate: false
-  xy: 372, 76
+  xy: 572, 368
   size: 32, 32
   orig: 32, 32
   offset: 0, 0
   index: -1
 summer/Rock8_ground_shadow_dark4
   rotate: false
-  xy: 372, 40
+  xy: 608, 368
   size: 32, 32
   orig: 32, 32
   offset: 0, 0
   index: -1
+summer/Rock8_ground_shadow_dark5
+  rotate: false
+  xy: 44, 4
+  size: 16, 16
+  orig: 16, 16
+  offset: 0, 0
+  index: -1
 summer/Rokc3_snow_shadow1
   rotate: false
-  xy: 72, 84
+  xy: 792, 880
   size: 64, 64
   orig: 64, 64
   offset: 0, 0
   index: -1
 summer/Rokc3_snow_shadow2
   rotate: false
-  xy: 140, 152
+  xy: 860, 948
   size: 64, 64
   orig: 64, 64
   offset: 0, 0
   index: -1
 summer/Rokc3_snow_shadow3
   rotate: false
-  xy: 336, 4
+  xy: 644, 368
   size: 32, 32
   orig: 32, 32
   offset: 0, 0
   index: -1
 summer/Rokc3_snow_shadow4
   rotate: false
-  xy: 372, 4
+  xy: 680, 368
   size: 32, 32
   orig: 32, 32
   offset: 0, 0
   index: -1
+summer/Rokc3_snow_shadow5
+  rotate: false
+  xy: 64, 4
+  size: 16, 16
+  orig: 16, 16
+  offset: 0, 0
+  index: -1
 summer/Rokc3_snow_shadow_dark1
   rotate: false
-  xy: 208, 220
+  xy: 4, 24
   size: 64, 64
   orig: 64, 64
   offset: 0, 0
   index: -1
 summer/Rokc3_snow_shadow_dark2
   rotate: false
-  xy: 276, 288
+  xy: 72, 92
   size: 64, 64
   orig: 64, 64
   offset: 0, 0
   index: -1
 summer/Rokc3_snow_shadow_dark3
   rotate: false
-  xy: 576, 288
+  xy: 716, 368
   size: 32, 32
   orig: 32, 32
   offset: 0, 0
   index: -1
 summer/Rokc3_snow_shadow_dark4
   rotate: false
-  xy: 576, 252
+  xy: 752, 368
   size: 32, 32
   orig: 32, 32
   offset: 0, 0
   index: -1
+summer/Rokc3_snow_shadow_dark5
+  rotate: false
+  xy: 84, 4
+  size: 16, 16
+  orig: 16, 16
+  offset: 0, 0
+  index: -1
 summer/Snow_bush1
   rotate: false
-  xy: 412, 424
+  xy: 208, 228
   size: 64, 64
   orig: 64, 64
   offset: 0, 0
   index: -1
 summer/Snow_bush2
   rotate: false
-  xy: 820, 324
+  xy: 576, 332
   size: 32, 32
   orig: 32, 32
   offset: 0, 0
   index: -1
+summer/Snow_bush3
+  rotate: false
+  xy: 104, 4
+  size: 16, 16
+  orig: 16, 16
+  offset: 0, 0
+  index: -1
 summer/TX Props
   rotate: false
-  xy: 4, 492
+  xy: 4, 500
   size: 512, 512
   orig: 512, 512
   offset: 0, 0
   index: -1
 summer/Tree2
   rotate: false
-  xy: 520, 532
+  xy: 276, 296
   size: 64, 64
   orig: 64, 64
   offset: 0, 0
   index: -1
 summer/Tree3
   rotate: false
-  xy: 588, 600
+  xy: 344, 364
   size: 64, 64
   orig: 64, 64
   offset: 0, 0
   index: -1
+summer/mushroom
+  rotate: false
+  xy: 915, 757
+  size: 13, 15
+  orig: 13, 15
+  offset: 0, 0
+  index: 2
+summer/rock
+  rotate: false
+  xy: 124, 4
+  size: 16, 16
+  orig: 16, 16
+  offset: 0, 0
+  index: 2
 
 objects3.png
 size: 1024, 1024

@@ -608,11 +608,11 @@
                 6,
                 8
             ],
-            "scale": 5.6996,
-            "selectedLayer": 3,
+            "scale": 5.74,
+            "selectedLayer": 2,
             "viewCenter": {
-                "x": 435.38143027580884,
-                "y": 482.31454838936065
+                "x": 375.69686411149826,
+                "y": 424.0418118466898
             }
         },
         "main.tmx": {
@@ -620,11 +620,11 @@
                 4,
                 6
             ],
-            "scale": 5.08,
+            "scale": 0.5998,
             "selectedLayer": 2,
             "viewCenter": {
-                "x": 1846.1614173228345,
-                "y": 2007.8740157480313
+                "x": 1998.166055351784,
+                "y": 2069.0230076692233
             }
         },
         "main.tmx#summer_3": {
@@ -650,6 +650,9 @@
             "dynamicWrapping": true,
             "scaleInDock": 1.2757,
             "scaleInEditor": 2.4
+        },
+        "objects/npc_obj/npc_women.tsx": {
+            "dynamicWrapping": true
         },
         "objects/player.tsx": {
             "dynamicWrapping": true,
@@ -790,7 +793,7 @@
     },
     "frame.defaultDuration": 200,
     "last.externalTilesetPath": "/Users/yavasia/Desktop/LibGdx/assets/maps/tileset/summer_tile",
-    "last.imagePath": "/Users/yavasia/Downloads",
+    "last.imagePath": "/Users/yavasia/Desktop/LibGdx/assets_raw/objects/npc",
     "map.height": 50,
     "map.lastUsedFormat": "tmx",
     "map.layerDataFormat": "3",
@@ -810,7 +813,7 @@
         "objects/interior_obj/interior_obj.tsx"
     ],
     "project": "untitled.tiled-project",
-    "property.type": "float",
+    "property.type": "string",
     "recentFiles": [
         "main.tmx",
         "objects/summer_obj/objects_summer.tsx",
@@ -832,5 +835,5 @@
         "height": 32,
         "width": 32
     },
-    "tileset.type": 0
+    "tileset.type": 1
 }
