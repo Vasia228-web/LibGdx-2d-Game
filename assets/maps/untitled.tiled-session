@@ -412,11 +412,11 @@
             "scaleInDock": 1
         },
         "/Users/yavasia/Desktop/pixel art/моби/слайми/Slime1.tmx": {
-            "scale": 1.45,
+            "scale": 2.61,
             "selectedLayer": 0,
             "viewCenter": {
-                "x": 88.27586206896552,
-                "y": 625.1724137931035
+                "x": 153.06513409961684,
+                "y": 294.2528735632184
             }
         },
         "/Users/yavasia/Desktop/pixel art/моби/слайми/Slime1.tmx#Slime1_Attack_body": {
@@ -471,6 +471,32 @@
             "scaleInDock": 1
         },
         "/Users/yavasia/Desktop/pixel art/моби/слайми/Slime1.tmx#Slime_Idle_shadow": {
+            "scaleInDock": 1
+        },
+        "/Users/yavasia/Desktop/pixel art/моби/слайми/Slime3.tmx": {
+            "scale": 1.49,
+            "selectedLayer": 0,
+            "viewCenter": {
+                "x": 107.04697986577182,
+                "y": 210.7382550335571
+            }
+        },
+        "/Users/yavasia/Desktop/pixel art/моби/слайми/Slime3.tmx#Slime1_Death_full": {
+            "scaleInDock": 1
+        },
+        "/Users/yavasia/Desktop/pixel art/моби/слайми/Slime3.tmx#Slime1_Hurt_full": {
+            "scaleInDock": 1
+        },
+        "/Users/yavasia/Desktop/pixel art/моби/слайми/Slime3.tmx#Slime1_Idle_full": {
+            "scaleInDock": 1
+        },
+        "/Users/yavasia/Desktop/pixel art/моби/слайми/Slime3.tmx#Slime1_Run_full": {
+            "scaleInDock": 1
+        },
+        "/Users/yavasia/Desktop/pixel art/моби/слайми/Slime3.tmx#Slime1_Walk_full": {
+            "scaleInDock": 1
+        },
+        "/Users/yavasia/Desktop/pixel art/моби/слайми/Slime3.tmx#Slime3_Attack_full": {
             "scaleInDock": 1
         },
         "/Users/yavasia/Desktop/pixel art/тайли/данж/Dungeon1_objects.tmx": {
@@ -608,11 +634,11 @@
                 6,
                 8
             ],
-            "scale": 5.74,
+            "scale": 4.2676,
             "selectedLayer": 2,
             "viewCenter": {
-                "x": 375.69686411149826,
-                "y": 424.0418118466898
+                "x": 414.8701846471085,
+                "y": 379.0186521698379
             }
         },
         "main.tmx": {
@@ -620,11 +646,11 @@
                 4,
                 6
             ],
-            "scale": 0.5998,
+            "scale": 0.6399,
             "selectedLayer": 2,
             "viewCenter": {
-                "x": 1998.166055351784,
-                "y": 2069.0230076692233
+                "x": 1199.4061572120643,
+                "y": 1190.0296921393967
             }
         },
         "main.tmx#summer_3": {
@@ -813,8 +839,10 @@
         "objects/interior_obj/interior_obj.tsx"
     ],
     "project": "untitled.tiled-project",
-    "property.type": "string",
+    "property.type": "int",
     "recentFiles": [
+        "/Users/yavasia/Desktop/pixel art/моби/слайми/Slime3.tmx",
+        "/Users/yavasia/Desktop/pixel art/моби/слайми/Slime1.tmx",
         "main.tmx",
         "objects/summer_obj/objects_summer.tsx",
         "objects/building_obj/Building_obj.tsx",
@@ -824,9 +852,7 @@
         "tileset/autum_tile/autum_tiles.tsx",
         "objects/interior_obj/interior_obj.tsx",
         "tileset/interior_tile/interior_tile.tsx",
-        "interior_map/house.tmx",
-        "tileset/interior_tile/interior_tile2.tsx",
-        "tileset/summer_tile/autum_tiles.tsx"
+        "interior_map/house.tmx"
     ],
     "tileset.lastUsedFormat": "tsx",
     "tileset.margin": 0,

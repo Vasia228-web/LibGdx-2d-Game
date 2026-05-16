@@ -29,7 +29,9 @@ public class TiledService {
     private Consumer<TiledMap> mapChangedConsumer;
     private Consumer<TiledMapTileMapObject> loadObjectsConsumer;
     private Consumer<MapObject> loadTriggerConsumer;
+    private Consumer<MapObject> loadSpawnConsumer;
     private LoadTileConsumer loadTileConsumer;
+
 
 
     public TiledService(AssetService assetService,  World physicWorld) {
@@ -39,6 +41,7 @@ public class TiledService {
         this.currentMap = null;
         this.loadTileConsumer = null;
         this.loadTriggerConsumer = null;
+        this.loadSpawnConsumer = null;
         this.physicWorld = physicWorld;
     }
 
@@ -68,7 +71,10 @@ public class TiledService {
             } else if ("triggers".equals(layer.getName())) {
                 loadTriggerLayer(layer);
 
-            } else if(layer instanceof TiledMapTileLayer tileLayer){
+            } else if ("spawn".equals(layer.getName())) {
+                loadSpawnLayer(layer);
+            }
+            else if(layer instanceof TiledMapTileLayer tileLayer){
                 loadTileLayer(tileLayer);
             }
         }
@@ -82,6 +88,16 @@ public class TiledService {
             loadTriggerConsumer.accept(mapObject);
         }
     }
+
+    private void loadSpawnLayer(MapLayer spawnLayer) {
+        if (spawnLayer == null) return;
+        if (loadSpawnConsumer == null) return;
+
+        for (MapObject mapObject : spawnLayer.getObjects()) {
+            loadSpawnConsumer.accept(mapObject);
+        }
+    }
+
 
     private void spawnMapBoundary(TiledMap tiledMap) {
         Integer width = tiledMap.getProperties().get("width", 0, Integer.class);
@@ -164,6 +180,9 @@ public class TiledService {
         void accept(TiledMapTile tile, float x, float y);
     }
 
+    public void setLoadSpawnConsumer(Consumer<MapObject> loadSpawnConsumer) {
+        this.loadSpawnConsumer = loadSpawnConsumer;
+    }
 
     public void setLoadObjectsConsumer(Consumer<TiledMapTileMapObject> loadObjectsConsumer) {
         this.loadObjectsConsumer = loadObjectsConsumer;

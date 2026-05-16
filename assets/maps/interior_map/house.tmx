@@ -140,7 +140,7 @@
   <object id="224" gid="344" x="256.124" y="322.83" width="11" height="11"/>
   <object id="225" gid="344" x="506.803" y="235.093" width="11" height="11"/>
   <object id="226" gid="344" x="580.614" y="282.443" width="11" height="11"/>
-  <object id="230" gid="404" x="385.683" y="395.094" width="15" height="31"/>
+  <object id="230" gid="404" x="394.812" y="358.16" width="15" height="31"/>
  </objectgroup>
  <objectgroup id="8" name="triggers">
   <object id="227" x="384.664" y="479.84" width="46.9585" height="16.0127">

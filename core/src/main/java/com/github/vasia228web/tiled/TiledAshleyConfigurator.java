@@ -23,6 +23,7 @@ import com.github.vasia228web.component.*;
 import com.github.vasia228web.component.Animation2D.AnimationType;
 import com.github.vasia228web.component.Facing.FacingDirection;
 import com.github.vasia228web.component.Transform;
+import com.github.vasia228web.enemy.EnemyFactory;
 import com.github.vasia228web.input.Controller;
 import com.github.vasia228web.tag.PlayerTag;
 
@@ -31,11 +32,13 @@ public class TiledAshleyConfigurator {
     private final Engine engine;
     private final AssetService assetService;
     private final World physicsWorld;
+    private final EnemyFactory enemyFactory;
 
-   public TiledAshleyConfigurator(Engine engine, AssetService assetService, World physicsWorld) {
+   public TiledAshleyConfigurator(Engine engine, AssetService assetService, World physicsWorld, EnemyFactory enemyFactory) {
         this.engine = engine;
         this.assetService = assetService;
         this.physicsWorld = physicsWorld;
+        this.enemyFactory = enemyFactory;
 
    }
 
@@ -105,7 +108,7 @@ public class TiledAshleyConfigurator {
         addEntityController(tileMapObject, entity);
         addEntityMove(tile, entity);
         addEntityAnimation(tile, entity);
-        BodyDef.BodyType bodyType = getObjectBodyType(tile);
+        BodyDef.BodyType bodyType = getObjectBodyType(tileMapObject, tile);
         addEntityPhysic(tile.getObjects(),bodyType, Vector2.Zero, entity);
         addEntityCameraFollow(tileMapObject, entity);
         entity.add(new Facing(FacingDirection.DOWN));
@@ -216,6 +219,27 @@ public class TiledAshleyConfigurator {
         }
     }
 
+    public void onLoadSpawn(MapObject mapObject) {
+        String objectType = mapObject.getProperties().get("objectType", String.class);
+        String enemyId = mapObject.getProperties().get("enemyId", String.class);
+
+        float x = mapObject.getProperties().get("x", Float.class);
+        float y = mapObject.getProperties().get("y", Float.class);
+
+        Gdx.app.log("SPAWN",
+            "objectType=" + objectType +
+                " enemyId=" + enemyId +
+                " x=" + x +
+                " y=" + y
+        );
+
+        if (!"enemy_spawn".equals(objectType)) {
+            return;
+        }
+
+        enemyFactory.createEnemy(enemyId, x, y);
+    }
+
     private void addEntityCameraFollow(TiledMapTileMapObject tileMapObject, Entity entity) {
         Boolean camFollow = tileMapObject.getProperties().get("camFollow", false, Boolean.class);
         if(!camFollow)return;
@@ -223,12 +247,23 @@ public class TiledAshleyConfigurator {
         entity.add(new CameraFollow());
     }
 
-    private BodyDef.BodyType getObjectBodyType(TiledMapTile tile) {
-       String classType = tile.getProperties().get("type","", String.class);
-       if("Prop".equals(classType)){
-           return BodyDef.BodyType.StaticBody;
-       }
-       return BodyDef.BodyType.DynamicBody;
+    private BodyDef.BodyType getObjectBodyType(
+        TiledMapTileMapObject tileMapObject,
+        TiledMapTile tile
+    ) {
+        boolean controlled = tileMapObject.getProperties().get("controller", false, Boolean.class)
+            || tile.getProperties().get("controller", false, Boolean.class);
+
+        float speed = tileMapObject.getProperties().get("speed", 0f, Float.class);
+        if (speed == 0f) {
+            speed = tile.getProperties().get("speed", 0f, Float.class);
+        }
+
+        if (controlled || speed > 0f) {
+            return BodyDef.BodyType.DynamicBody;
+        }
+
+        return BodyDef.BodyType.StaticBody;
     }
 
     private void addEntityPhysic(MapObjects objects, BodyDef.BodyType bodyType, Vector2 relativeTo, Entity entity) {
