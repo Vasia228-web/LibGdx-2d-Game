@@ -52,8 +52,8 @@ public class AStarPathfinder {
     public Array<GridPoint2> findPath(int startX, int startY, int targetX, int targetY) {
         Array<GridPoint2> emptyPath = new Array<>();
 
-        GridPoint2 resolvedStart = resolveWalkableTile(startX, startY);
-        GridPoint2 resolvedTarget = resolveWalkableTile(targetX, targetY);
+        GridPoint2 resolvedStart = resolveWalkableTile(startX, startY, targetX, targetY);
+        GridPoint2 resolvedTarget = resolveWalkableTile(targetX, targetY, startX, startY);
 
         if (resolvedStart == null || resolvedTarget == null) {
             return emptyPath;
@@ -158,7 +158,12 @@ public class AStarPathfinder {
         return path;
     }
 
-    private GridPoint2 resolveWalkableTile(int tileX, int tileY) {
+    private GridPoint2 resolveWalkableTile(
+        int tileX,
+        int tileY,
+        int startX,
+        int startY
+    ) {
         if (grid.isWalkable(tileX, tileY)) {
             return new GridPoint2(tileX, tileY);
         }
@@ -166,7 +171,9 @@ public class AStarPathfinder {
         GridPoint2 localClosest = findClosestWalkableTile(
             tileX,
             tileY,
-            LOCAL_WALKABLE_SEARCH_RADIUS
+            LOCAL_WALKABLE_SEARCH_RADIUS,
+            startX,
+            startY
         );
 
         if (localClosest != null) {
@@ -176,19 +183,28 @@ public class AStarPathfinder {
         return findClosestWalkableTile(
             tileX,
             tileY,
-            Math.max(grid.getWidth(), grid.getHeight())
+            Math.max(grid.getWidth(), grid.getHeight()),
+            startX,
+            startY
         );
     }
 
-    private GridPoint2 findClosestWalkableTile(int centerX, int centerY, int maxRadius) {
+    private GridPoint2 findClosestWalkableTile(
+        int centerX,
+        int centerY,
+        int maxRadius,
+        int startX,
+        int startY
+    ) {
         int minTileX = Math.max(0, centerX - maxRadius);
         int maxTileX = Math.min(grid.getWidth() - 1, centerX + maxRadius);
         int minTileY = Math.max(0, centerY - maxRadius);
         int maxTileY = Math.min(grid.getHeight() - 1, centerY + maxRadius);
 
         GridPoint2 bestTile = null;
-        int bestDistanceSquared = Integer.MAX_VALUE;
-        int bestManhattanDistance = Integer.MAX_VALUE;
+
+        int bestDistanceToTarget = Integer.MAX_VALUE;
+        int bestDistanceToEnemy = Integer.MAX_VALUE;
 
         for (int x = minTileX; x <= maxTileX; x++) {
             for (int y = minTileY; y <= maxTileY; y++) {
@@ -196,19 +212,22 @@ public class AStarPathfinder {
                     continue;
                 }
 
-                int deltaX = x - centerX;
-                int deltaY = y - centerY;
-                int distanceSquared = deltaX * deltaX + deltaY * deltaY;
-                int manhattanDistance = Math.abs(deltaX) + Math.abs(deltaY);
+                int distanceToTarget =
+                    Math.abs(x - centerX) + Math.abs(y - centerY);
 
-                if (distanceSquared < bestDistanceSquared
-                    || (
-                        distanceSquared == bestDistanceSquared
-                            && manhattanDistance < bestManhattanDistance
-                    )) {
+                int distanceToEnemy =
+                    Math.abs(x - startX) + Math.abs(y - startY);
+
+                if (
+                    distanceToTarget < bestDistanceToTarget
+                        || (
+                        distanceToTarget == bestDistanceToTarget
+                            && distanceToEnemy < bestDistanceToEnemy
+                    )
+                ) {
                     bestTile = new GridPoint2(x, y);
-                    bestDistanceSquared = distanceSquared;
-                    bestManhattanDistance = manhattanDistance;
+                    bestDistanceToTarget = distanceToTarget;
+                    bestDistanceToEnemy = distanceToEnemy;
                 }
             }
         }

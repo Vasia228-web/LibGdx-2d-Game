@@ -19,7 +19,14 @@ public class EnemyRepository {
             "enemies/plant_1/idle_down",
             1,
             13f,
-            8f
+            8f,
+            //DAMAGE
+            1,
+            1.5f,
+            //RANGE ATTACK
+            18f,
+            14f,
+            10f
         ));
         enemies.put("orc_1", new EnemyData(
             "orc_1",
@@ -28,7 +35,12 @@ public class EnemyRepository {
             "enemies/orc_1/idle_down",
             1,
             13f,
-            8f
+            8f,
+            1,
+            1.5f,
+            18f,
+            14f,
+            10f
         ));
         enemies.put("vampire_1", new EnemyData(
             "vampire_1",
@@ -37,7 +49,13 @@ public class EnemyRepository {
             "enemies/vampire_1/idle_down",
             1,
             13f,
-            8f
+            8f,
+            1,
+            1.5f,
+
+            18f,
+            14f,
+            10f
         ));
         enemies.put("slime_blue", new EnemyData(
             "slime_blue",
@@ -46,7 +64,13 @@ public class EnemyRepository {
             "enemies/slime_blue/idle_down",
             1,
             13f,
-            8f
+            8f,
+            1,
+            1.5f,
+
+            18f,
+            14f,
+            10f
         ));
 
         //DESERT
@@ -58,7 +82,13 @@ public class EnemyRepository {
             "enemies/slime_fire/idle_down",
             1,
             13f,
-            8f
+            8f,
+            1,
+            1.5f,
+
+            18f,
+            14f,
+            10f
         ));
         enemies.put("orc_2", new EnemyData(
             "orc_2",
@@ -67,7 +97,13 @@ public class EnemyRepository {
             "enemies/orc_2/idle_down",
             1,
             13f,
-            8f
+            8f,
+            1,
+            1.5f,
+
+            18f,
+            14f,
+            10f
         ));
         enemies.put("vampire_3", new EnemyData(
             "vampire_3",
@@ -76,7 +112,13 @@ public class EnemyRepository {
             "enemies/vampire_3/idle_down",
             1,
             13f,
-            8f
+            8f,
+            1,
+            1.5f,
+
+            18f,
+            14f,
+            10f
         ));
         enemies.put("plant_3", new EnemyData(
             "plant_3",
@@ -85,7 +127,13 @@ public class EnemyRepository {
             "enemies/plant_3/idle_down",
             1,
             13f,
-            8f
+            8f,
+            1,
+            1.5f,
+
+            18f,
+            14f,
+            10f
         ));
 
         //AUTUM
@@ -97,7 +145,13 @@ public class EnemyRepository {
             "enemies/plant_2/idle_down",
             1,
             13f,
-            8f
+            8f,
+            1,
+            1.5f,
+
+            18f,
+            14f,
+            10f
         ));
 
         enemies.put("orc_3", new EnemyData(
@@ -107,7 +161,13 @@ public class EnemyRepository {
             "enemies/orc_3/idle_down",
             1,
             13f,
-            8f
+            8f,
+            1,
+            1.5f,
+
+            18f,
+            14f,
+            10f
         ));
 
         enemies.put("slime_angry", new EnemyData(
@@ -117,7 +177,13 @@ public class EnemyRepository {
             "enemies/slime_angry/idle_down",
             1,
             13f,
-            8f
+            8f,
+            1,
+            1.5f,
+
+            18f,
+            14f,
+            10f
         ));
 
         enemies.put("vampire_2", new EnemyData(
@@ -127,7 +193,13 @@ public class EnemyRepository {
             "enemies/vampire_2/idle_down",
             1,
             13f,
-            8f
+            8f,
+            1,
+            1.5f,
+
+            18f,
+            14f,
+            10f
         ));
 
     }

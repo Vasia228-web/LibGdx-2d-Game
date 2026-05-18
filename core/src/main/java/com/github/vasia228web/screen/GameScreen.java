@@ -109,15 +109,12 @@ public class GameScreen extends ScreenAdapter {
         Consumer<TiledMap> audioConsumer = audioService::setMap;
 
         Consumer<TiledMap> pathfindingConsumer = tiledMap -> {
-            Gdx.app.log("PATH_GRID", "Building pathfinding grid...");
 
             this.pathfindingGrid = pathfindingGridBuilder.build(tiledMap);
             this.pathfinder = new AStarPathfinder(this.pathfindingGrid);
 
             this.enemyAISystem.setPathfinder(this.pathfinder);
             this.pathDebugRenderSystem.setPathfinder(this.pathfinder);
-
-            Gdx.app.log("PATH_GRID", "AStarPathfinder created and set to debug and enemy AI systems");
         };
         this.tiledService.setMapChangeConsumer(
             renderConsumer
@@ -162,6 +159,5 @@ public class GameScreen extends ScreenAdapter {
         }
         this.physicsWorld.dispose();
         this.stage.dispose();
-        pathDebugRenderSystem.dispose();
     }
 }

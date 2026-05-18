@@ -2,7 +2,6 @@ package com.github.vasia228web.enemy;
 
 import com.badlogic.ashley.core.Engine;
 import com.badlogic.ashley.core.Entity;
-import com.badlogic.gdx.Gdx;
 import com.badlogic.gdx.graphics.Color;
 import com.badlogic.gdx.graphics.g2d.TextureAtlas;
 import com.badlogic.gdx.graphics.g2d.TextureRegion;
@@ -42,7 +41,6 @@ public class EnemyFactory {
     }
 
     public Entity createEnemy(String enemyId, float x, float y) {
-        Gdx.app.log("ENEMY_FACTORY", "Create enemy: " + enemyId);
 
         EnemyData enemyData = enemyRepository.getEnemyData(enemyId);
 
@@ -79,6 +77,10 @@ public class EnemyFactory {
         entity.add(new EnemyAI(position.x,position.y,3f, 6f, 1f));
         entity.add(new Move(1f));
         entity.add(new PathFollow());
+        entity.add(new EnemyAttack(enemyData.getDamage(),enemyData.getAttackCooldown(),
+            enemyData.getAttackHitboxWidth() * GdxGame.UNIT_SCALE,
+            enemyData.getAttackHitboxHeight() * GdxGame.UNIT_SCALE,
+            enemyData.getAttackHitboxOffset() * GdxGame.UNIT_SCALE ));
         entity.add(new Animation2D(
             enemyData.getAtlasAsset(),
             enemyData.getAtlasKey(),
@@ -95,8 +97,6 @@ public class EnemyFactory {
 
 
         engine.addEntity(entity);
-
-        Gdx.app.log("ENEMY_FACTORY", "Enemy created: " + enemyId);
 
         return entity;
     }

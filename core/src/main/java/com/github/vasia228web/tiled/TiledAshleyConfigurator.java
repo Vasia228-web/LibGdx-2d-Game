@@ -113,6 +113,7 @@ public class TiledAshleyConfigurator {
         addEntityCameraFollow(tileMapObject, entity);
         entity.add(new Facing(FacingDirection.DOWN));
         entity.add(new Fsm(entity));
+        entity.add(new Health(10));
 
         this.engine.addEntity(entity);
 
